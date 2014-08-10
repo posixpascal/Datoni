@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Local restaurant website / cms",
   "author": "Pascal Raszyk",
-  "main": "index.js",
+  "main": "web.js",
   "scripts": {
     "test": "grunt test",
     "start": "node index.js"
