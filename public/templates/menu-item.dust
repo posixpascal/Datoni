@@ -1,0 +1,79 @@
+{>"layouts/master" /}
+
+{<body}
+<div class="row">
+	<div class="small-12 medium-8 columns">
+		<h1><img class="circular-image" src="{image}"/> {title}</h1>
+		<div class="menu-table oeffnungszeiten">
+			<table cellspacing="0" cellpadding="0">
+				<thead>
+					<tr>
+						<th>Nummer<br/><small>Bestellnummer</small></th>
+						<th>Name<br/><small>Beschreibung</small></th>
+						<th>Preis<br/><small>Klein / Gro&szlig; / Familie</small></th>
+					</tr>
+				</thead>
+				<tbody>
+					{#products}
+						{?displaySubGroup}
+						<tr class="subheadline">
+							<td></td>
+							<td>
+								{displaySubGroup}
+							</td>
+							<td></td>
+						</tr>
+						{/displaySubGroup}
+						<tr>
+							<td class="id">{id}</td>
+							<td class="menu-name">{name|s}<br/><small class="menu-description">{description|s}</small></td>
+							<td width="28%" class="price-column">
+								{#price.gross}
+									<b>Klein</b> {price.klein|s} &euro;<br/>
+									<b>Gro&szlig;</b> {price.gross|s} &euro;
+									{?price.familie}
+									<br/><b>Familie</b> {price.familie} &euro;
+									{/price.familie}
+								{:else}
+									{price} &euro;
+								{/price.gross}
+							</td>
+						</tr>
+					{/products}
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="small-12 medium-4 columns">
+		<h1><span class="pull-right"><a href="/menu/"><i class="fa fa-bars"></i> Zur Karte</a></span></h1>
+		<div class="panel datoni" style="margin-top: 70px;">
+			<div class="toolbar">
+				<h2>Filter einrichten</h2>
+			</div>
+			
+		</div>
+
+		<div class="panel datoni" style="margin-top: 70px;">
+			<div class="toolbar">
+				<h2>Mehr aus unserer K&uuml;che</h2>
+			</div>
+			<div>
+				<ul class="thumbs no-list-symbols">
+
+					{#categories}
+						{@eq key=name value=title type="string"}
+							
+						{:else}
+							<li><img class="circular-image" src="{image}" /> <a href="/menu/{_url}" alt="{name|s}">{name|s}</a></li>
+						{/eq}
+
+						
+					
+					{/categories}
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</div>
+{/body}

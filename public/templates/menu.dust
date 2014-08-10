@@ -1,0 +1,34 @@
+{>"layouts/master" /}
+
+{<body}
+<div class="row">
+	<div class="small-12 medium-8 columns">
+		<h1>Menu</h1>
+		{#categories}
+		<div class="small-4 medium-4 columns">
+			<a href="/menu{_url}"><div class='menu-item' data-url='/menu/{_url}'>
+				<div class='menu-image'>
+					<img src="{image}" alt="{name}" />
+				</div>
+				<div class="menu-content">
+					<span class="highlight">{name}</span>
+				</div>
+			</div>{~n}
+			</a>
+		</div>
+		{/categories}
+	</div>
+	<div class="small-12 medium-4 columns">
+		<h1><span class="pull-right"><a href="/mindestbestellwert"><i class="fa fa-bars"></i> Mindestbestellwert</a></span></h1>
+		<div class="panel datoni" style="margin-top: 70px;">
+			<div class="toolbar">
+				<h2>Weitere Funktionen</h2>
+			</div>
+			<ul class="contact no-list-symbols">
+				<li><a href="/menu/print"><i class="fa fa-print"></i> Druck Version</a></li>
+				<li><a href="/menu/pdf"><i class="fa fa-cloud"></i> PDF ansehen</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+{/body}

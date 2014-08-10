@@ -1,0 +1,43 @@
+{>"layouts/master" /}
+
+{<body}
+<div class="row">
+	<div class="small-12 medium-8 columns">
+	<h1>Willkommen auf unserer Website</h1>
+		<p>Willkommen auf der Website der Pizzaria&nbsp;<strong>Da Toni</strong> im wundersch&ouml;nen Bad Camberg. Sie suchen leckere italienische Gerichte? Dann sind Sie bei uns genau richtig. Unser gro&szlig;es Sortiment an Pizza, Pasta, Salaten, Desserts bis hin zur Deutschen K&uuml;che l&auml;sst sich sehen und schmecken. Tiramisu &uuml;ber Panacotta bis hin zu speziellen Pizzen, sollten auch Ihren Abend zu einem unvergesslichen Genuss machen.</p>
+
+
+
+		<p>Sie finden uns in der Limburger Strasse 39 in 65520 Bad Camberg, gegen&uuml;ber der Sparkasse. Eine genaue Wegbeschreibung inklusive Google-Map Verkn&uuml;pfung finden Sie auf in der Navigation unter&nbsp;<strong>Anfahrt</strong>.</p>
+
+		<p>Sie erreichen uns unter anderem telefonisch unter folgenden Nummern:</p>
+
+		<ul>
+			<li>0 6434 90 99 40</li>
+			<li>0 6434 90 99 41</li>
+		</ul>
+
+
+
+		<p>Unsere Crew bereitet seit mehr als 12 Jahren jegliche Art von Pizza, Pasta und mehr zu. Dabei haben wir unser Sortiment st&auml;ndig verbessert und aufgewertet, so dass von Klein bis Gro&szlig; f&uuml;r jedermann etwas dabei ist. Ob romantisch mit einem&nbsp; Insalata Italiana  Salat, leckeren Spaghetti und einer Flasche Wein, oder klassisch mit der hauseigenen Salami Pizza.&nbsp;</p>
+
+		<p>&nbsp;</p>
+
+		<p>Wir, das Team von Da Toni, freuen&nbsp;uns bereits auf einen Besuch von Ihnen.</p>
+		
+	</div>
+		<div class="small-12 medium-4 columns">
+			<div class="panel datoni">
+				<div class="toolbar">
+					<h2>Anfahrt</h2>
+				</div>
+				<ul class="no-list-symbols">
+					<li><span style="font-weight:800">Straße:</span> <span class="pull-right">Limburger Strasse 39</span></li>
+					<li><span style="font-weight:800">PLZ:</span>  <span class="pull-right">65520 Bad Camberg</span></li>
+					<li><span style="font-weight:800">Telefon:</span>  <span class="pull-right">06434 / 909940</span></li>
+				</ul>
+			</div>
+
+		</div>
+	</div>  
+{/body}

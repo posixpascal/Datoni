@@ -1,0 +1,23 @@
+{
+  "name": "datoni-camberg",
+  "version": "0.0.1",
+  "directory": "public/components",
+  "dependencies": {
+    "requirejs": "~2.1.9"
+  },
+  "main": "index.js",
+  "authors": [
+    "posixpascal <posixpascal@googlemail.com>"
+  ],
+  "description": "Local restaurant website / cms",
+  "license": "MIT",
+  "homepage": "http://datoni-camberg.de",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

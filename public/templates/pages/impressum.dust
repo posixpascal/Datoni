@@ -1,0 +1,42 @@
+{>"layouts/master" /}
+
+{<body}
+<div class="row">
+	<div class="small-12 medium-8 columns">
+		<h1>Impressum</h1>
+		<p>Angaben gemäß § 5 TMG:<br/><br/></p>
+<p>Pascal Raszyk<br />
+Daubornerstrasse 3<br />
+65618 Selters<br />
+</p>
+<h3 class="title">Kontakt:</h3>
+
+
+
+
+<p>Telefon:  +4915164418517</p>
+
+<p>E-Mail: pascal@raszyk.de</p>
+
+<h3 class="title">Quellenangaben für die verwendeten Bilder und Grafiken:</h3>
+<p>www.everystockphoto.com<br />
+www.flickr.com</p>
+<p> </p>
+<p>Quelle: <i><a rel="nofollow" href="http://www.e-recht24.de">http://www.e-recht24.de</a></i></p>
+
+	</div>
+	<div class="small-12 medium-4 columns">
+		
+		<div class="panel datoni effect8">
+			<div class="toolbar">
+				<h2>Querverweise</h2>
+			</div>
+			<ul>
+				<li><a href="/disclaimer">Disclaimer</a></li>
+				<li><a class="active" href="/impressum"><strong>Impressum</strong></a></li>
+				<li><a href="/datenschutz">Datenschutzerkl&auml;rung</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+{/body}

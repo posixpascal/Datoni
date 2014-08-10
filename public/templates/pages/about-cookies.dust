@@ -1,0 +1,9 @@
+{>"layouts/master" /}
+
+{<body}
+<div class="row">
+	<div class="small-12 medium-8 columns">
+		<h1>&Uuml;ber Cookies</h1>
+	</div>
+</div>
+{/body}

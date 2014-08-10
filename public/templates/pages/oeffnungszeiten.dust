@@ -1,0 +1,73 @@
+{>"layouts/master" /}
+
+{<body}
+<div class="row">
+	<div class="small-12 medium-8 columns">
+		<h1>&Ouml;ffnungszeiten</h1>
+
+		<div class="oeffnungszeiten">
+			<table cellspacing="0" cellpadding="0">
+				<thead>
+					<tr>
+						<th>Wochentag</th>
+						<th>Morgens</th>
+						<th>Abends</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Montags</td>
+						<td>11.30 - 14.00</td>
+						<td>16:30 - 22.30</td>
+					</tr>
+					<tr>
+						<td>Dienstags</td>
+						<td>11.30 - 14.00</td>
+						<td>16:30 - 22.30</td>
+					</tr>
+					<tr>
+						<td>Mittwochs</td>
+						<td>11.30 - 14.00</td>
+						<td>16:30 - 22.30</td>
+					</tr>
+					<tr>
+						<td>Donnerstags</td>
+						<td>11.30 - 14.00</td>
+						<td>16:30 - 22.30</td>
+					</tr>
+					<tr>
+						<td>Freitags</td>
+						<td>11.30 - 14.00</td>
+						<td>16:30 - 22.30</td>
+					</tr>
+
+					<tr>
+						<td>Samstags</td>
+						<td>11.30 - 14.00</td>
+						<td>16:30 - 22.30</td>
+					</tr>
+					<tr>
+						<td>Sonn- &amp; Feiertags</td>
+						<td>11.30 - 14.00</td>
+						<td>16:30 - 22.30</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+	</div>
+	<div class="small-12 medium-4 columns">
+		
+		<div class="panel datoni effect8">
+			<div class="toolbar">
+				<h2>Querverweise</h2>
+			</div>
+			<ul>
+				<li><a href="/anfahrt">Anfahrt</a></li>
+				<li><a href="/mindestbestellwert">Mindestbestellwert</a></li>
+				<li><a href="/menu">Unsere Karte</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+{/body}
