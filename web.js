@@ -75,7 +75,7 @@ app.requestAfterRoute = function requestAfterRoute(server) {
 };
 
 
-kraken.create(app).listen(function(err) {
+kraken.create(app).listen(process.env.PORT, function(err) {
     if (err) {
         console.error(err);
     }
