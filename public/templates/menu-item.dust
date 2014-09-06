@@ -64,7 +64,7 @@
 						{@eq key=name value=title type="string"}
 							
 						{:else}
-							<li><img class="circular-image" src="{image}" /> <a href="/menu/{_url}" alt="{name|s}">{name|s}</a></li>
+							<li><img class="circular-image" src="{image}" /> <a href="/menu{_url}" alt="{name|s}">{name|s}</a></li>
 						{/eq}
 
 						
