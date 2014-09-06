@@ -858,3 +858,9 @@ h3.title {
   -o-transform: skew(8deg) rotate(3deg);
   transform: skew(8deg) rotate(3deg);
 }
+/* line 832, /Users/administrator/Project/Datoni/V2-node/app */
+.text-highlight {
+  color: #581412;
+  font-weight: bold;
+  text-shadow: none;
+}

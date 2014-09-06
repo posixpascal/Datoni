@@ -3,7 +3,7 @@
 {<body}
 <div class="row">
 	<div class="small-12 medium-8 columns">
-		<h1><img class="circular-image" src="{image}"/> {title}</h1>
+		<h1><img class="circular-image" src="{thumbnail}"/> {title}</h1>
 		<div class="menu-table oeffnungszeiten">
 			<table cellspacing="0" cellpadding="0">
 				<thead>

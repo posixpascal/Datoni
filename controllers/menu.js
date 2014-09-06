@@ -10,11 +10,25 @@ module.exports = function(app) {
 
     var renderMenu = function renderMenu(menu, title) {
         return function(req, res) {
+            var category, thumbnail, categories;
+            categories = cm.categories;
+            for (var i = 0, len = categories.length; i < len; i++){
+                category = categories[i];
+                if (category.name == menu) {
+                    var match = true; break;
+                }
+            }
+            if (typeof match !== "undefined" && match === true){
+                thumbnail = category.image;
+            } else {
+                thumbnail = "/images/404.png";
+            }
             res.render('menu-item', {
                 categories: cm.categories,
                 title: title,
                 products: cm.products[menu],
-                image: cm.categories
+                image: cm.categories,
+                thumbnail: thumbnail
             });
         };
     };
