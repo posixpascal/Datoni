@@ -46,12 +46,7 @@
 	</div>
 	<div class="small-12 medium-4 columns">
 		<h1><span class="pull-right"><a href="/menu/"><i class="fa fa-bars"></i> Zur Karte</a></span></h1>
-		<div class="panel datoni" style="margin-top: 70px;">
-			<div class="toolbar">
-				<h2>Filter einrichten</h2>
-			</div>
-			
-		</div>
+		
 
 		<div class="panel datoni" style="margin-top: 70px;">
 			<div class="toolbar">
