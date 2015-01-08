@@ -94,7 +94,7 @@
 							<h4>Weiterf&uuml;hrende Links</h4>
 							<ul>
 								<li><a href="/menu/print" class="toggle-print">Druck Version</a></li>
-								<li><a href="javascript:void(0);" class="pizza-calculator"><del>Pizza Rechner</del> (Coming Soon)</a></li>
+								<!--<li><a href="javascript:void(0);" class="pizza-calculator"><del>Pizza Rechner</del> (Coming Soon)</a></li>-->
 								<li><a href="/kontakt" data-remote>Kontakt</a></li>
 
 							</ul>
@@ -110,8 +110,8 @@
 						<div class="small-4 medium-12 columns">
 							<h4>Zusatz</h4>
 							<ul>
-								<li><a href="/karte.pdf" target="_blank">Karte als PDF</a></li>
-								<li><a href="/poweredby">Website Infos</a></li>
+								<li><a href="/Karte.pdf" target="_blank">Karte als PDF</a></li>
+								<!--<li><a href="/poweredby">Website Infos</a></li>-->
 								
 							</ul>
 						</div>
@@ -155,8 +155,7 @@
 							<div>
 								<ul>
 								<a href="https://www.facebook.com/DatoniCamberg"><i class="fa fa-facebook"></i></a>
-								<a href="https://twitter.com/Datoni_Camberg"><i class="fa fa-twitter"></i></a>
-
+								
 							</div>
 						</div>
 						<div class="small-8 medium-8 columns">
@@ -190,7 +189,7 @@
 		</div>
 	</div>
 	<br/>
-	<div class="copyright">
+	<div style="display: none; "class="copyright">
 		Made with <span class="hearts">&hearts;</span> in Wiesbaden by <a href="//www.pascalraszyk.de/" target="_blank">Raszyk Web</a><br/>
 		<img src="/images/pr.png">
 	</div>

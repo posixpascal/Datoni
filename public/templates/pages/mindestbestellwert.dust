@@ -55,10 +55,6 @@
 	<div class="small-12 medium-4 columns">
 		
 		<div class="panel datoni">
-			<div class="toolbar">
-				<h2>Mindestbestellwert Rechner</h2>
-			</div>
-			<div class="panel-content"><div class="mindestbestellwert progress-btn" data-style="fill" data-horizontal><i class="fa fa-compass"></i> Jetzt finden!</div></div>
 		</div>
 	</div>
 </div>
