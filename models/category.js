@@ -1290,7 +1290,7 @@ module.exports = function CategoryModel(db) {
             'price': '2.50',
             'liter': '1,0l',
             'description': 'Coca Cola, Coca Cola Light, Sprite, Mezzo Mix, Fanta',
-            'name': '1l Liter Flasche',
+            'name': '1 Liter Flasche',
 
         }, {
             'id': '147',

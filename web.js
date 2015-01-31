@@ -12,8 +12,6 @@ var kraken = require('kraken-js'),
 
 app.configure = function configure(nconf, next) {
     // Fired when an app configures itself
-
-
     next(null);
 };
 

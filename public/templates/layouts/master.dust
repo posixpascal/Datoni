@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/font-awesome.min.css" />
     <link rel="stylesheet" href="/components/foundation/css/foundation.css" />
     <link rel="stylesheet" href="/css/component.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body class="background">
 
@@ -54,13 +55,39 @@
 			</div>
 		</div>
 	</div> -->
-	<div class="container">
+	<!--<div class="container">
 		<div class="row">
 			<div class="slider-container-bg effect7">
 				<div class="toni-caption">
 				<div class="title">Frische Zutaten</div>
 				   <div class="description">F&uuml;r den perfekten Datoni Geschmack! </div>
 				</div>
+			</div>
+		</div>
+	</div>-->
+	<div class="container orbit">
+		<div class="row">
+			<div class="small-12 columns">
+				<ul class="example-orbit" data-orbit>
+				  <li>
+				    <img src="/images/pizza/1.jpg" alt="slide 1" />
+				    <div class="orbit-caption">
+				      Caption One.
+				    </div>
+				  </li>
+				  <li class="active">
+				    <img src="../assets/img/examples/andromeda-orbit.jpg" alt="slide 2" />
+				    <div class="orbit-caption">
+				      Caption Two.
+				    </div>
+				  </li>
+				  <li>
+				    <img src="../assets/img/examples/launch-orbit.jpg" alt="slide 3" />
+				    <div class="orbit-caption">
+				      Caption Three.
+				    </div>
+				  </li>
+				</ul>
 			</div>
 		</div>
 	</div>
@@ -90,7 +117,7 @@
 			<div class="row footer">
 				<div class="small-12 medium-3 columns ">
 					<div class="row">
-						<div class="small-4 medium-12 columns ">
+						<div class="small-12 medium-12 columns ">
 							<h4>Weiterf&uuml;hrende Links</h4>
 							<ul>
 								<li><a href="/menu/print" class="toggle-print">Druck Version</a></li>
@@ -99,7 +126,7 @@
 
 							</ul>
 						</div>
-						<div class="small-4 medium-12 columns ">
+						<div class="small-12 medium-12 columns ">
 							<h4>Impressum</h4>
 							<ul>
 								<li><a href="/disclaimer">Disclaimer</a></li>
@@ -107,7 +134,7 @@
 								<li><a href="/impressum">Impressum</a></li>
 							</ul>
 						</div>
-						<div class="small-4 medium-12 columns">
+						<div class="small-12 medium-12 columns">
 							<h4>Zusatz</h4>
 							<ul>
 								<li><a href="/Karte.pdf" target="_blank">Karte als PDF</a></li>
@@ -189,9 +216,9 @@
 		</div>
 	</div>
 	<br/>
-	<div style="display: none; "class="copyright">
-		Made with <span class="hearts">&hearts;</span> in Wiesbaden by <a href="//www.pascalraszyk.de/" target="_blank">Raszyk Web</a><br/>
-		<img src="/images/pr.png">
+	<div class="copyright">
+		Made with <i class="fa fa-html5"></i> and <span class="hearts">&hearts;</span> by <a href="//www.pascalraszyk.de/" target="_blank">pascalraszyk.de</a><br/>
+		<img style="margin-top: 5px; height: auto;" src="/images/ninetyfourJS.png">
 	</div>
 	<br/><br/>
 

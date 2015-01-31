@@ -16,8 +16,7 @@ module.exports = function(app) {
         var latitude = req.body.latitude;
 
         // proxy environment
-        var r = request.defaults({'proxy': 'http://192.168.10.10:80'}/* uncomment for proxy */);
-        //console.log('http://maps.googleapis.com/maps/api/geocode/json?latlng=' + latitude + ',' + longitude + '&sensor=true');
+        var r = request.defaults();
         r('http://maps.googleapis.com/maps/api/geocode/json?latlng=' + latitude + ',' + longitude + '&sensor=true', function(err, response, body) {
             result.json(JSON.parse(body));
 

@@ -588,3 +588,11 @@
 	left: 100%;
 	margin-left: 25px;
 }
+
+
+.orbit {
+	display: none;
+}
+.main-container {
+	margin-top: 40px;
+}

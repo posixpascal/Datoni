@@ -46,8 +46,9 @@ h3.title {
   font-size: 11px;
 }
 .copyright img {
+  margin-top: 5px;
   width: 32px;
-  height: 32px;
+  height: auto;
 }
 .copyright .hearts {
   color: #af2724;
