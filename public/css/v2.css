@@ -1,0 +1,41 @@
+.menu-toggle {
+	padding: 20px;
+	color: #cb2d29;
+}
+.menu-toggle i {
+	font-size: 35px;
+	cursor: pointer;
+}
+
+.mobile_nav {
+	height: 0;
+	overflow: hidden;
+	transition: height ease-in-out 0.5s;
+	-webkit-transition: height ease-in-out 0.5s;
+	-moz-transition: height ease-in-out 0.5s;
+}
+
+
+.mobile_nav.visible {
+
+}
+
+.mobile_nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background-color: #222;
+}
+
+.mobile_nav ul li {
+}
+
+.mobile_nav ul li a {
+	color: #cb2d29;
+	display: block;
+	padding: 10px;
+	padding-left: 13px;
+}
+.mobile_nav ul li a:hover {
+	background-color: #111;
+}
