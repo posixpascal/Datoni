@@ -5,6 +5,7 @@
     <meta name="csrf-token" content="{_csrf}" />
     <title>{title} | datoni-camberg.de</title>
     <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" href="/css/v2.css" />
     <link rel="stylesheet" href="/css/font-awesome.min.css" />
     <link rel="stylesheet" href="/components/foundation/css/foundation.css" />
     <link rel="stylesheet" href="/css/component.css" />
@@ -15,13 +16,13 @@
 	<div class="container">
 		<div class="navigation">
 			<div class="row">
-				<div class="small-12 medium-4 columns">
+				<div class="small-4 medium-4 columns">
 					
 					<a href="/"><img class="logo" src="/images/logo.png"></a>
 
 			  	</div>
 
-			  	<div class="small-12 medium-8 columns">
+			  	<div class="large-8 show-for-large-up columns">
 			  		<ul class="menu inline-list">
 						<li><a href="/">Home</a></li>
 						<li><a href="/menu/">Karte</a></li>
@@ -30,7 +31,23 @@
 						<li><a href="/kontakt">Kontakt</a></li>
 			  		</ul>
 			  	</div>
+			  	<div style="text-align: right;" class="small-8 medium-8 columns hide-for-large-only">
+			  		<div class="menu-toggle">
+			  			<i class="fa fa-bars"></i>
+			  		</div>
+			  	</div>
 			</div>
+		</div>
+	</div>
+	<div class="container hide-for-large-only">
+		<div class="mobile_nav">
+			<ul class="menu">
+				<li><a href="/">Home</a></li>
+				<li><a href="/menu/">Karte</a></li>
+				<li><a href="/anfahrt">Anfahrt</a></li>
+				<li><a href="/oeffnungszeiten">&Ouml;ffnungszeiten</a></li>
+				<li><a href="/kontakt">Kontakt</a></li>
+	  		</ul>
 		</div>
 	</div>
 	<!-- <div class="container slider-container">

@@ -221,4 +221,13 @@ require(['jquery', 'progressButton', 'classie', 'geolib'], function ($, progress
             });
         });
     });
+    var menuToggled = false;
+    $(".menu-toggle").click(function(){
+        if (!menuToggled){
+            $(".mobile_nav").css("height", $(".mobile_nav ul").height());
+        } else {
+           $(".mobile_nav").css("height", 0);
+        }
+        menuToggled = !menuToggled;
+    });
 });
