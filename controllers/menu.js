@@ -18,11 +18,19 @@ module.exports = function(app) {
                     var match = true; break;
                 }
             }
+
             if (typeof match !== "undefined" && match === true){
                 thumbnail = category.image;
+            } else if (menu == "VegetarischePizza"){
+                thumbnail = "/images/menu/vegetarische-pizza.jpg";
+            } else if (menu == "Ueberbackenes"){
+                thumbnail = "/images/menu/ueberbackene-spezialitaeten.jpg";
+            } else if (menu == "DeutscheKueche"){
+                thumbnail = "/images/menu/deutsche-kueche.jpg";
             } else {
-                thumbnail = "/images/404.png";
+                thumbnail = false;
             }
+
             res.render('menu-item', {
                 categories: cm.categories,
                 title: title,

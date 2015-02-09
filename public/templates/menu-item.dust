@@ -3,14 +3,14 @@
 {<body}
 <div class="row">
 	<div class="small-12 medium-8 columns">
-		<h1><img class="circular-image" src="{thumbnail}"/> {title}</h1>
+		<h1>{?thumbnail}<img class="circular-image" src="{thumbnail}"/>{/thumbnail} {title}</h1>
 		<div class="menu-table oeffnungszeiten">
 			<table cellspacing="0" class="responsive" cellpadding="0">
 				<thead>
 					<tr>
-						<th>Nummer<br/><small>Bestellnummer</small></th>
-						<th>Name<br/><small>Beschreibung</small></th>
-						<th>Preis<br/><small>Klein / Gro&szlig; / Familie</small></th>
+						<th>Nummer<br/><small class="show-for-medium-up ">Bestellnummer</small></th>
+						<th>Name<br/><small class="show-for-medium-up ">Beschreibung</small></th>
+						<th>Preis<br/><small class="show-for-medium-up ">Klein / Gro&szlig; / Familie</small></th>
 					</tr>
 				</thead>
 				<tbody>
@@ -29,8 +29,12 @@
 							<td class="menu-name">{name|s}<br/><small class="menu-description">{description|s}</small></td>
 							<td width="28%" class="price-column">
 								{#price.gross}
+									{?price.klein}
 									<b>Klein</b> {price.klein|s} &euro;<br/>
+									{/price.klein}
+
 									<b>Gro&szlig;</b> {price.gross|s} &euro;
+
 									{?price.familie}
 									<br/><b>Familie</b> {price.familie} &euro;
 									{/price.familie}
@@ -59,7 +63,7 @@
 						{@eq key=name value=title type="string"}
 							
 						{:else}
-							<li><img class="circular-image" src="{image}" /> <a href="/menu{_url}" alt="{name|s}">{name|s}</a></li>
+							<li><img class="circular-image" src="{image}" /> <a href="/menu{_url}" alt="{name|s}" style="display:inline-block">{name|s}</a></li>
 						{/eq}
 
 						

@@ -59,10 +59,12 @@ h3.title {
 }
 .panel.datoni {
   background-color: #b72925;
-  color: #4c110f;
+  color: #ccc !important;
   padding-top: 70px;
   border-radius: 5px 5px 0 0;
   border: none;
+
+  font-weight: 200;
 }
 .panel.datoni .toolbar {
   position: absolute;
@@ -80,10 +82,11 @@ h3.title {
   color: #360c0b !important;
 }
 .panel.datoni li {
-  color: #761a18;
 }
 .panel.datoni li a {
-  color: #4c110f;
+  color: #611514;
+  font-weight: bold;
+
 }
 .panel.datoni li a:hover {
   text-decoration: underline;
@@ -151,7 +154,7 @@ h3.title {
   color: #cb2d29;
   text-shadow: none;
   vertical-align: middle;
-  font-size: 18px;
+  font-size: 14px;
 }
 .toni-caption {
   position: absolute;
@@ -544,7 +547,7 @@ h3.title {
   margin-bottom: 5px;
   background-color: #111;
   border: none;
-  color: #888;
+  color: #fff;
   border: 1px solid #111;
   text-shadow: 1px 1px 0 #000;
 }
@@ -625,7 +628,7 @@ h3.title {
 }
 .menu-item {
   background-color: #222;
-  margin: 20px;
+  margin-bottom: 30px !important;
   display: inline-block;
   width: 150px;
   overflow: hidden;
@@ -718,3 +721,19 @@ h3.title {
   font-weight: bold;
   text-shadow: none;
 }
+
+@media screen and (min-width: 1025px){
+  .menu-item {
+     margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .menu-table table thead th {
+    font-size: 12px !important;
+  }
+  .menu-table .price-column {
+    font-size: 11px !important;
+  }
+}
+

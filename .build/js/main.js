@@ -222,12 +222,15 @@ require(['jquery', 'progressButton', 'classie', 'geolib'], function ($, progress
         });
     });
     var menuToggled = false;
-    $(".menu-toggle").click(function(){
+    var toggleMenu = function(){
         if (!menuToggled){
             $(".mobile_nav").css("height", $(".mobile_nav ul").height());
         } else {
            $(".mobile_nav").css("height", 0);
         }
         menuToggled = !menuToggled;
-    });
+    };
+    //$(".menu-toggle").click(toggleMenu);
+    $(".menu-toggle").on("click", toggleMenu);
+
 });
