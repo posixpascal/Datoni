@@ -5,7 +5,7 @@
 	<div class="small-12 medium-8 columns">
 		<h1><img class="circular-image" src="{thumbnail}"/> {title}</h1>
 		<div class="menu-table oeffnungszeiten">
-			<table cellspacing="0" cellpadding="0">
+			<table cellspacing="0" class="responsive" cellpadding="0">
 				<thead>
 					<tr>
 						<th>Nummer<br/><small>Bestellnummer</small></th>

@@ -16,13 +16,13 @@
 	<div class="container">
 		<div class="navigation">
 			<div class="row">
-				<div class="small-4 medium-4 columns">
+				<div class="small-8 medium-4 columns">
 					
 					<a href="/"><img class="logo" src="/images/logo.png"></a>
 
 			  	</div>
 
-			  	<div class="large-8 show-for-large-up columns">
+			  	<div class="large-8 small-4 medium-8 show-for-large-up columns">
 			  		<ul class="menu inline-list">
 						<li><a href="/">Home</a></li>
 						<li><a href="/menu/">Karte</a></li>
@@ -31,7 +31,7 @@
 						<li><a href="/kontakt">Kontakt</a></li>
 			  		</ul>
 			  	</div>
-			  	<div style="text-align: right;" class="small-8 medium-8 columns hide-for-large-only">
+			  	<div style="text-align: right;" class="small-4 medium-4 columns hide-for-large-only">
 			  		<div class="menu-toggle">
 			  			<i class="fa fa-bars"></i>
 			  		</div>
@@ -277,5 +277,13 @@
 
 	</script>
 	<script data-main="/js/main" src="/components/requirejs/require.js"></script>
+	<script src="/js/vendor/fastclick.min.js"></script>
+	<script>
+		if ('addEventListener' in document) {
+		    document.addEventListener('DOMContentLoaded', function() {
+		        FastClick.attach(document.body);
+		    }, false);
+		}
+	</script>
 </body>
 </html>

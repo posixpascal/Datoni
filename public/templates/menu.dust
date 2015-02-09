@@ -5,7 +5,7 @@
 	<div class="small-12 medium-8 columns">
 		<h1>Menu</h1>
 		{#categories}
-		<div class="small-4 medium-4 columns">
+		<div class="small-6 medium-4 columns">
 			<a href="/menu{_url}"><div class='menu-item' data-url='/menu/{_url}'>
 				<div class='menu-image'>
 					<img src="{image}" alt="{name}" />
