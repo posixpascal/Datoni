@@ -27,7 +27,7 @@
 						<tr>
 							<td class="id">{id}</td>
 							<td class="menu-name">{name|s}<br/><small class="menu-description">{description|s}</small></td>
-							<td width="28%" class="price-column">
+							<td width="30%" class="price-column">
 								{#price.gross}
 									{?price.klein}
 									<b>Klein</b> {price.klein|s} &euro;<br/>
