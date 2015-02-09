@@ -6,7 +6,7 @@
 		<h1>&Ouml;ffnungszeiten</h1>
 
 		<div class="oeffnungszeiten">
-			<table cellspacing="0" cellpadding="0">
+			<table class="responsive" cellspacing="0" cellpadding="0">
 				<thead>
 					<tr>
 						<th>Wochentag</th>

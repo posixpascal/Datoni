@@ -231,6 +231,6 @@ require(['jquery', 'progressButton', 'classie', 'geolib'], function ($, progress
         menuToggled = !menuToggled;
     };
     //$(".menu-toggle").click(toggleMenu);
-    $(".menu-toggle").on("click touchend", toggleMenu);
+    $(".menu-toggle").on("click", toggleMenu);
 
 });
