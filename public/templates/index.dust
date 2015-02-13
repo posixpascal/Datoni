@@ -27,7 +27,7 @@
 		
 	</div>
 	    	<div class="small-12 medium-4 columns ">
-        			<div class="panel datoni column-important">
+        		<!--	<div class="panel datoni column-important">
         				<div class="toolbar">
         					<h2>Wir suchen dich!</h2>
         				</div>
@@ -49,7 +49,7 @@
         				</ul>
 
         			</div>
-
+-->
         		</div>
 		<div class="small-12 medium-4 columns">
 			<div class="panel datoni">
