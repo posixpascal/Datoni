@@ -653,11 +653,11 @@ module.exports = function CategoryModel(db) {
                     'gross': '8.0',
                     'familie': '14.50'
                 },
-                'description': 'Pizza mit Hackfleisch, Peperoniwurst, Schinken, Salami u. Zwiebeln',
+                'description': 'Pizza mit Käse, Crème-fraîche, Lachs, Zwiebeln und extra Käse',
                 'name': 'Pizza Salmone'
             }, {
                 'id': '225',
-                'ingredients': ['Tomaten', 'Käse', 'Crème-fraîche', 'Lachs', 'Zwiebeln', 'extra Käse'],
+                'ingredients': ['Tomaten', 'Käse', 'Peperoniwurst', 'Schinken', 'Salami', 'und Zwiebel'],
                 'price': {
                     'klein': '6.5',
                     'gross': '7.5',
