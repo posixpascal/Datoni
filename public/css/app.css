@@ -772,3 +772,14 @@ h3.title {
   }
 }
 
+
+.quote {
+  text-align: center;
+  padding-bottom: 50px;
+  margin: 0;
+  font-size: 36px;
+  font-family: 'Times New Roman', sans-serif;
+  font-style: italic;
+  color: #999;
+  text-shadow: 1px 1px 0 #fff;
+}

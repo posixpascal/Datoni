@@ -3,7 +3,16 @@
 {<body}
 <div class="row">
 	<div class="small-12 medium-8 columns">
-	<h1>Willkommen auf unserer Website</h1>
+		<h1>Jetzt neu! Da Toni als App</h1>
+		<img src="/images/teaser_only.png" style="float: left; width: 180px; height: auto; margin-right: 20px; border-radius: 5px; ">
+		<p style="margin-left: 20px;">
+			Wir haben uns zusammengesetzt und uns einen Weg einfallen lassen, um Ihnen Bestellungen noch einfacher und bequemer zu machen. Mit der offiziellen <b>Da Toni</b> App können Sie nun egal wo und mit welchem Gerät eine Bestellung an unsere Pizzeria senden. Gratis und ohne Anruf.
+			<br/>
+			<div style="clear: both;"></div>
+			<a href="http://app.datoni-camberg.de">Jetzt herunterladen</a>
+		</p>
+
+		<h1>Über uns</h1>
 		<p>Willkommen auf der Website der Pizzaria&nbsp;<strong>Da Toni</strong> im wundersch&ouml;nen Bad Camberg. Sie suchen leckere italienische Gerichte? Dann sind Sie bei uns genau richtig. Unser gro&szlig;es Sortiment an Pizza, Pasta, Salaten, Desserts bis hin zur Deutschen K&uuml;che l&auml;sst sich sehen und schmecken. Tiramisu &uuml;ber Panacotta bis hin zu speziellen Pizzen, sollten auch Ihren Abend zu einem unvergesslichen Genuss machen.</p>
 
 
