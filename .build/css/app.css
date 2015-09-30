@@ -141,7 +141,7 @@ h3.title {
   color: #f1f1f1;
 }
 .oeffnungszeiten table tr:nth-of-type(even) {
-  background: #aaa;
+  background: #d1d1d1;
 }
 .oeffnungszeiten table tr,
 .oeffnungszeiten table td {
@@ -189,10 +189,11 @@ h3.title {
 .subheadline {
   background-color: #ad2623 !important;
   width: 100%;
+  color: #fff;
 }
 .subheadline td {
   text-shadow: none !important;
-  color: #360c0b !important;
+  color: #fff !important;
   font-weight: 900;
   font-family: 'Courgette';
   border-bottom: 2px  solid #111 !important;
@@ -782,4 +783,8 @@ h3.title {
   font-style: italic;
   color: #999;
   text-shadow: 1px 1px 0 #fff;
+}
+
+.content .pull-right > a {
+    font-size: 24px !important;
 }

@@ -31,7 +31,8 @@ module.exports = function(server) {
             req.flash('error', 'Bitte gebe eine Nachricht an, welche an uns geschickt werden soll');
         }
 
-        if (_post){
+        if (_post){ 
+            // send mail
             req.flash('success', 'Deine Nachricht wurde erfolgreich verschickt!');
             res.redirect('/');
         } else {
