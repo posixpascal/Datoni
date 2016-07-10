@@ -1,0 +1,1 @@
+(function(){dust.register("pages/about-cookies",body_0);var blocks={'body':body_1};function body_0(chk,ctx){ctx=ctx.shiftBlocks(blocks);return chk.partial("layouts/master",ctx,null);}function body_1(chk,ctx){ctx=ctx.shiftBlocks(blocks);return chk.write("<div class=\"row\"><div class=\"small-12 medium-8 columns\"><h1>&Uuml;ber Cookies</h1></div></div>");}return body_0;})();
