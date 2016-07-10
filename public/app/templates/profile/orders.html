@@ -1,0 +1,50 @@
+<ion-view view-title="Bestellungen">
+     <ion-header-bar align-title="center" class="bar-datoni">
+    <div class="buttons">
+      <button class="button button-clear" ui-sref="tab.profile.view">
+        <i class="icon ion-chevron-left"></i> Zurück
+      </button>
+    </div>
+    <h1 class="title">Bestellungen</h1>
+  </ion-header-bar>
+  <ion-content has-bouncing="true">
+    <div ng-if="orders.length === 0">
+        <div class="vertical-center empty-node">
+            Noch keine Bestellungen
+            <span class="emotion">:(</span>
+            <div class="desc">
+                Du kannst über den Menüpunkt "Speisekarte" ganz einfach eine Bestellung erstellen.
+                <br/>
+                Einfach deine Lieblingsspeisen in den Warenkorb legen und mit einem Klick bestellen.
+            </div>
+        </div>
+    </div>
+
+    <div ng-if="orders.length > 0" class="search-field">
+
+         <div class="form form-inset">
+           <div class="list list-inset">
+            <label class="item item-input" >
+                    <input type="text" placeholder="Bestellungen filtern..." ng-model="search">
+            </label>
+         </div>
+         <div class="padding list" ng-repeat="order in orders | filter:search">
+           <small><b>{{order.date}}</b></small>
+           <div class="item item-header">Bestellung vom</div>
+            <div class="item" ng-repeat="item in order.order.cart">
+                {{item.product.name}}
+                <div class="item-note">
+                  {{item.price | currency }}
+                </div>
+            </div>
+            <div class="address">
+              
+            </div>
+         </div>
+    </div>
+
+
+
+
+  </ion-content>
+</ion-view>

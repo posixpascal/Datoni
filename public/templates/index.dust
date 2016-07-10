@@ -3,7 +3,17 @@
 {<body}
 <div class="row">
 	<div class="small-12 medium-8 columns">
-		<h1>Jetzt neu! Da Toni als App</h1>
+		<h1>Jetzt neu! Online bestellen</h1>
+		
+		
+			<p>Kein Freund von Apps? Kein Problem, ab jetzt kannst du auch auf unserer Website ganz einfach Pizza bestellen.<br/>
+			Klicke dazu einfach auf den folgende Schaltfläche.</p>
+
+			<a data-widget-start class="rounded-button" href="#">
+				Jetzt bestellen
+			</a>
+		
+		<h1>Da Toni als App</h1>
 		<img src="/images/teaser_only.png" style="float: left; width: 180px; height: auto; margin-right: 20px; border-radius: 5px; ">
 		<p style="margin-left: 20px;">
 			Wir haben uns zusammengesetzt und uns einen Weg einfallen lassen, um Ihnen Bestellungen noch einfacher und bequemer zu machen. Mit der offiziellen <b>Da Toni</b> App können Sie nun egal wo und mit welchem Gerät eine Bestellung an unsere Pizzeria senden. Gratis und ohne Anruf.

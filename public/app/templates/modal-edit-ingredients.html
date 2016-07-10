@@ -1,0 +1,29 @@
+ <ion-modal-view>
+    <ion-header-bar class="bar-datoni">
+      <button ng-click="closeModal()" class="button button-assertive">Abbrechen</button>
+      <button ng-if="!hasItem" ng-click="addItemWithIngredients(product)" class="button button-assertive">In den Warenkorb</button>
+
+
+    </ion-header-bar>
+    <ion-content ng-init="product.ingredients">
+      <div class="padding">
+        <h1>Zutaten bearbeiten</h1>
+        Hier kannst Du Zutaten die dir nicht gefallen einfach entfernen.
+        Alle Zutaten mit einem <i class="ion-checkmark-circled"></i> werden für deine Pizza verwendet. Du kannst natürlich auch Zutaten hinzufügen.<br/>
+        <b class="energized">Für Zutaten fallen Extrakosten an. Eine genaue Auflistung findest du in der Bestellübersicht.</b>
+      </div>
+      <ion-list ng-if="!hasItem && product.number != 20">
+        <ion-item class="item-checkbox" ng-repeat="(ingredient, value) in product.ingredients">
+          <label class="checkbox">
+            <input type="checkbox" ng-model="product.ingredients[ingredient]"/>
+          </label>
+          {{ingredient}}
+        </ion-item>
+      </ion-list>
+
+      <div class="padding" ng-if="product.number == 20">
+        Diese Pizza lässt sich nicht bearbeiten. Bitte versuchen Sie es mit einer anderen.
+      </div>
+
+    </ion-content>
+  </ion-modal-view>

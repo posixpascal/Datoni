@@ -116,7 +116,7 @@ h3.title {
 
   border-radius: 5px;
   vertical-align: center;
-  background: #ddd;
+  background: #fafafa;
 }
 .oeffnungszeiten table thead {
   padding: 10px;
@@ -141,7 +141,7 @@ h3.title {
   color: #f1f1f1;
 }
 .oeffnungszeiten table tr:nth-of-type(even) {
-  background: #d1d1d1;
+  background: #f1f1f1;
 }
 .oeffnungszeiten table tr,
 .oeffnungszeiten table td {
@@ -510,6 +510,28 @@ h3.title {
   color: #333;
   font-size: 12px;
   box-shadow: none;
+}
+.rounded-button {
+  background-color: #9e2320;
+  box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.1);
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+.iframe-closer {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  color: #fff;
+  font-size: 32px;
+  z-index: 2000;
+}
+.rounded-button:hover, .rounded-button:focus, .rounded-button:active {
+  color: #fff !important;
+  background-color: #9e2320;
 }
 .contact-form button {
   background-color: #9e2320;

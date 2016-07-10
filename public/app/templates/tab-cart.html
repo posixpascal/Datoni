@@ -1,0 +1,130 @@
+<ion-view>
+    <ion-header-bar align-title="center" class="bar-datoni">
+    <div class="buttons">
+
+    </div>
+    <h1 class="title">Warenkorb</h1>
+  </ion-header-bar>
+  <ion-content has-bouncing="true">
+      <div ng-if="cart.items.length > 0">
+    	   <div ng-repeat="item in cart.items" ng-class="{'collapsed': item.collapsed}" class="list card cart-card">
+    	      <div ng-click="item.collapsed = !item.collapsed" class="item item-divider">
+              <div class="row">
+                <div class="col-15 category-image">
+                  <img ng-src="{{item.category | category_image}}" />
+                </div>
+                <div class="col col-title">
+                  {{item.quantity}}x {{item.product.name}} <br/><small class="subdued"><b>Preis: {{getPrice(item) | currency}}</b></small>
+                </div>
+                <div class="col" style="text-align: right">
+                <button class="button-clear button button-arrow">
+                  <i ng-class="{'ion-chevron-right': !item.collapsed, 'ion-chevron-down': item.collapsed}"></i>
+                </button>
+                </div>
+              </div>
+            </div>
+    	      <div ng-if="item.collapsed" class="item item-body" style="padding: 0">
+                  <div ng-click="changeSize($event,item)" class="item item-select item-input" style="padding-left: 10px" ng-if="item.product.prices.length > 1">
+                    <div class="input-label">
+                    <small>Größe ändern (Aktuell <strong>{{item.size|capitalized|fixGrammar}}</strong>)</small>
+                    </div>
+                    <!--<select>
+                      <option ng-repeat="price in item.product.prices" value="{{price.price}}">{{price.size|capitalized}}</option>
+                    </select>-->
+
+
+                    </div>
+
+
+
+                 <!-- <div ng-click="editIngredients(item)" class="item" style="padding-left: 10px;" ng-if="item.ingredients.length > 0">
+                    <span style="font-size: 13px">Pizza Zutaten bearbeiten</span>
+                  </div>-->
+                  <div class="row row-quantity">
+                      <div class="col" style="padding-top: 10px"><small>Anzahl</small></div>
+                      <div class="col" style="text-align: right">
+                          <button ng-click="changeQuantity(item, item.quantity, '-')" class="button button-small button-assertive">-</button>
+                          <button class="button button-small button-visual button-subtle">{{item.quantity}}</button>
+                          <button ng-click="changeQuantity(item, item.quantity, '+')" class="button button-small button-assertive">+</button>
+                      </div>
+                  </div>
+                  <div class="padding" ng-if="item.addedIngredients.length > 0 || item.removedIngredients.length > 0">
+                  <small style="font-size: 10px;">Für zusätzliche Zutaten fallen Kosten an.<br/>
+                    Klein: {{0.5 | currency }}<span style="width: 40px;">&nbsp;</span>
+                    Groß: {{0.5 | currency }}<span style="width: 40px;">&nbsp;</span>
+                    Familie: {{1.0 | currency }}<span style="width: 40px;">&nbsp;</span><br/></small>
+                    <div style="font-size: 10px;" class="" ng-repeat="ing in item.addedIngredients"><b>mit</b> {{ing}}</div>
+                     <div style="font-size: 10px;" class="assertive" ng-repeat="ing in item.removedIngredients">ohne {{ing}}</div>
+
+                    </div>
+
+                  <div class="col-padding"><small>{{item.product.description}}</small></div>
+    	      </div>
+    	      <div ng-if="item.collapsed" class="item tabs tabs-secondary tabs-icon-left">
+    		    <a class="tab-item" href="#" ng-click="cart.removeItem(item)">
+    		      <i class="icon ion-ios-close"></i>
+                  Entfernen
+    		    </a>
+    		  </div>
+    	    </div>
+
+          <div ng-if="useCoupons && (getTotalCost(false) <= 10)" class="card padding assertive">
+            Gutschriften lassen sich nur bei Bestellungen von mindestens <b>10,00€ Bestellwert</b> einlösen.
+          </div>
+
+            <div class="gesamtkosten padding row">
+                <div class="col">
+                  <h4 ng-if="useCoupons && getTotalCost(false) >= 10">Gutschrift</h4>
+                  <h4 style="padding-top: {{useCoupons? '16px' : '2px'}}">Gesamtkosten*</h4></div>
+                <div class="col">
+                  <h4 ng-if="useCoupons && getTotalCost(false) >= 10" style="text-align:right">-5,00€</h4>
+                <h2 style="text-align: right">  {{getTotalCost() | currency}}</h2></div>
+            </div>
+            <br/><br/>
+
+            <div class="padding">
+                <div ui-sref="tab.cart.checkout" class="button button-block button-assertive">Jetzt bestellen</div>
+            </div>
+
+            <div class="subtle-text padding">
+                *) Wir bieten in dieser App noch keine Bezahlmöglichkeiten an. Preise könnten ggf. nicht aktuell sein.
+            </div>
+        </div>
+
+        <div ng-if="cart.items.length == 0">
+
+          <div>
+              <div class="vertical-center empty-node">
+                  Noch nichts im Warenkorb
+                  <span class="emotion">
+                    <i class="ion-sad-outline"></i>
+                  </span>
+                  <div class="desc">
+                      Du kannst deine Lieblingsgerichte von der Speisekarte aus in den Warenkorb legen.
+                      Drücke dazu einfach auf den "zum Warenkorb" Button. <br/>
+                      <button ng-click="gotoMenu()" class="button button-block button-assertive">
+      
+                        Zur Speisekarte
+                      </button>
+                  </div>
+              </div>
+          </div>
+
+
+        </div>
+  </ion-content>
+</ion-view>
+
+
+<script id="size-popover.html" type="text/ng-template">
+  <ion-popover-view>
+    <ion-header-bar>
+      <h1 class="title">Pizza Größe</h1>
+    </ion-header-bar>
+    <ion-content>
+      <div class="list">
+        <div class="item" ng-click="setPrice(popoverItem, price)" ng-repeat="price in popoverItem.product.prices">{{price.size|capitalized|fixGrammar}}</div>
+      </div>
+    </ion-content>
+  </ion-popover-view>
+</script>

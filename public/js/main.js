@@ -202,6 +202,13 @@ require(['jquery', 'lodash', 'modernizr', 'app', 'foundation', 'pizzaRechner', '
 
 
 require(['jquery', 'progressButton', 'classie', 'geolib'], function ($, progressButton, classie) {
+
+
+    $(".iframe-closer").on("click", function(){
+        $(".iframe-closer").css("opacity", "0.0");
+        $("#appframe").remove();
+        $("body").css("overflow", "auto");
+    });
     window.classie = classie;
     $(function () {
         [].slice.call(document.querySelectorAll('.progress-btn')).forEach(function (bttn) {
@@ -220,6 +227,10 @@ require(['jquery', 'progressButton', 'classie', 'geolib'], function ($, progress
                 }
             });
         });
+    });
+    $("[data-widget-start]").on("click", function(){
+        window.ow = new OrderWidget();
+        window.ow.start();
     });
     var menuToggled = false;
     var toggleMenu = function(){

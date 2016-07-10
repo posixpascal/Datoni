@@ -1,0 +1,34 @@
+ <ion-modal-view>
+    <ion-header-bar class="bar-datoni">
+      <button ng-click="closeModal()" class="button button-assertive">Abbrechen</button>
+
+      <button ng-if="!hasItem" ng-click="addItemWithIngredientsDressing(product)" class="button button-assertive">In den Warenkorb</button>
+    </ion-header-bar>
+    <ion-content ng-init="product.ingredients">
+      <div class="padding">
+        <h4 style="margin-top:20px;">Dressing</h4>
+      </div>
+      <ion-list>
+          <ion-radio ng-model="product.dressing" ng-value="'Balsamico Dressing'">Balsamico Dressing</ion-radio>
+          <ion-radio ng-model="product.dressing" ng-value="'Essig/Öl Dressing'"> Essig/Öl Dressing</ion-radio>
+          <ion-radio ng-model="product.dressing" ng-value="'Joghurt Dressing'"> Joghurt Dressing</ion-radio>
+          <ion-radio ng-model="product.dressing" ng-value="'Cocktailsauce Dressing'"> Cocktailsauce Dressing</ion-radio>
+          <ion-radio ng-model="product.dressing" ng-value="'Ohne Dressing'"> Ohne Dressing</ion-radio>
+      </ion-list>
+
+      <h4 class="padding" style="margin-top: 20px;">Zutaten</h4>
+      <ion-list ng-if="!hasItem && product.number != 20">
+        <ion-item class="item-checkbox" ng-repeat="(ingredient, value) in product.ingredients">
+          <label class="checkbox">
+            <input type="checkbox" ng-model="product.ingredients[ingredient]"/>
+          </label>
+          {{ingredient}}
+        </ion-item>
+      </ion-list>
+
+      <div class="padding" ng-if="product.number == 20">
+        Diese Pizza lässt sich nicht bearbeiten. Bitte versuche es mit einer anderen.
+      </div>
+
+    </ion-content>
+  </ion-modal-view>

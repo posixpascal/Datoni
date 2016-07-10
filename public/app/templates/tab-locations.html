@@ -1,0 +1,21 @@
+<ion-view>
+  <ion-header-bar align-title="center" class="bar-datoni">
+    <div class="buttons">
+      <div ui-sref="tab.cart.checkout" class="button button-icon button-assertive">
+        <i class="icon ion-chevron-left"></i> Zurück  
+      </div>
+    </div>
+    <h1 class="title">Lieferorte</h1>
+  </ion-header-bar>
+  <ion-content has-bouncing="true">
+    <ion-list>
+      <ion-item ng-repeat="location in locations">
+        {{location[0]}}
+          <span class="item-note">
+            {{location[1] | currency}}
+          </span>
+      </ion-item>
+    </ion-list>
+   
+  </ion-content>
+</ion-view>

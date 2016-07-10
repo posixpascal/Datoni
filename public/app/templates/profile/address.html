@@ -1,0 +1,52 @@
+<ion-view view-title="Lieferadresse">
+	   <ion-header-bar align-title="center" class="bar-datoni">
+    <div class="buttons">
+      <button class="button button-clear" ui-sref="tab.profile.view">
+        <i class="icon ion-chevron-left"></i> Zurück
+      </button>
+    </div>
+    <h1 class="title">Lieferadresse</h1>
+  </ion-header-bar>
+  <ion-content has-bouncing="true">
+  		<div class="padding  subtle-text">
+  		Hier kannst du Änderungen an deiner Lieferadresse vornehmen. Du kannst deine Lieferadresse natürlich auch bei jeder Bestellung flexibel ändern.
+  		Die hier angegebene Lieferadresse wird zu jeder Bestellung als Standardadresse genutzt. Änderungen werden automatisch übernommen und gespeichert.
+  		</div>
+
+
+	  	<div class="list">
+	  	 <label class="item item-input">
+		    <span class="input-label">Vorname</span>
+		    <input type="text" ng-blur="saveAddress()" ng-model="address.firstname">
+		  </label>
+		   <label class="item item-input">
+		    <span class="input-label">Nachname</span>
+		    <input type="text" ng-blur="saveAddress()" ng-model="address.lastname">
+		  </label>
+		  <label class="item item-input">
+		    <span class="input-label">Straße & Hausnr.</span>
+		    <input type="text"  ng-blur="saveAddress()" ng-model="address.street">
+		  </label>
+		  <label class="item item-input">
+		    <span class="input-label">PLZ</span>
+		    <input type="text" ng-blur="saveAddress()" ng-model="address.postalcode">
+		  </label>
+		  <label class="item item-input">
+		    <span class="input-label">Ortsteil</span>
+		    <input type="text" ng-blur="saveAddress()" ng-model="address.location">
+		  </label>
+		</div>
+
+    
+        <div class="padding  subtle-text">
+						<div>
+							<button ng-click="getGeolocation()" class="button button-assertive button-outline">
+								GPS Standort abfragen
+							</button>
+						</div><br/>
+            Wenn du uns deinen aktuellen Standort freigibst, können wir Straße, Hausnummer und PLZ automatisch für dich ausfüllen. Wir nutzen die automatische Standorterkennung über einen Service von Google, bitte überprüfe die Daten persönlich da es uns sonst nicht möglich ist deine Bestellung zu liefern</div>
+        </div>
+
+
+  </ion-content>
+</ion-view>
