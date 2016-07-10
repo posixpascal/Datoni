@@ -1,0 +1,99 @@
+<ion-view >
+    <ion-header-bar align-title="center" class="bar-datoni">
+    <div class="buttons">
+
+    </div>
+    <h1 class="title">Mehr</h1>
+  </ion-header-bar>
+  <ion-content has-bouncing="true" class="settings-content">
+   <ion-list>
+      <!--<div class="padding subtle-text">
+        Derzeit gibt es noch keine Einstellungsmöglichkeiten in unserer App
+      </div>-->
+
+      <!-- <ion-item class="item-toggle">
+        Neuigkeiten abonnieren
+        <label class="toggle toggle-assertive">
+          <input type="checkbox" ng-click="saveSettings()" ng-model="settings.hasSubscribed">
+          <div class="track">
+            <div class="handle"></div>
+          </div>
+        </label>
+      </ion-item>
+      <ion-item class="item-toggle">
+        Über Updates benachrichtigen
+        <label class="toggle toggle-assertive">
+          <input type="checkbox" ng-click="saveSettings()" ng-model="settings.getUpdateNotifications">
+          <div class="track">
+            <div class="handle"></div>
+          </div>
+        </label>
+      </ion-item>
+      <div class="padding subtle-text">Sollten wir unsere App aktualisieren erhälst du beim Öffnen der Da Toni App einen Hinweis darüber, so bleibst du stets auf dem neuesten Stand.<br/><br/></div>
+ -->
+    <!--   <a class="item " ng-click="showFeedbackModal()">
+        Gib uns Feedback
+      </a> -->
+      <div class="padding">Da Toni im Web</div>
+      <a class="item item-icon-left"  ng-click="goto('http://www.datoni-camberg.de')">
+        <i class="ion-earth icon assertive"></i>
+        datoni-camberg.de
+      </a>
+      <a class="item item-icon-left" ng-click="goto('https://www.facebook.com/DatoniCamberg/info?tab=overview&edited=parking')">
+        <i class="ion-social-facebook icon assertive"></i>
+        Wir auf Facebook
+      </a>
+      <div class="padding"><br/>Unterstütz uns</div>
+      <a class="item item-icon-left"  ng-click="rateApp()">
+        <i class="ion-star icon assertive"></i>
+        Bewerte unsere App
+      </a>
+      <div class="padding"><br>Allgemeines</div>
+      <a class="item" ng-click="toggleMiniGame()">
+        App Version
+        <span class="item-note">
+          {{version}}
+        </span>
+      </a>
+
+      <a class="item" ui-sref="tab.settings.imprint">
+        Impressum
+      </a>
+       <a class="item" ui-sref="tab.settings.disclaimer">
+       Haftungsausschluss
+      </a>
+       <a class="item" ui-sref="tab.settings.dataprivacy">
+        Datenschutz
+      </a>
+
+      <!--<div class="padding" style="background: #111"><div class="padding" style="text-align: center">
+          <img src="img/datoni.png">
+      </div></div>-->
+      <div class="padding" style="text-align: center">
+          <small class="subtle-text">Made with <i class="assertive ion-ios-heart"></i> by Pascal Raszyk</small>
+      </div>
+    </ion-list>
+  </ion-content>
+</ion-view>
+
+<!--
+<script id="feedback-modal.html" type="text/ng-template">
+  <ion-modal-view>
+    <ion-header-bar>
+      <h1 class="title">Dein Feedback ist uns wichtig!</h1>
+    </ion-header-bar>
+    <ion-content has-bouncing="true">
+      <div class="padding">
+          Wir versuchen unsere App stets zu verbessern, solltest du ein Problem oder Wünsche haben, kannst du uns diese gerne mitteilen. Jedes konstruktive Feedback macht unsere App ein wenig benutzerfreundlicher &amp; einfacher.
+      </div>
+      <div class="feedback-form padding">
+          <label for="feedback">
+              Dein Feedback
+          </label>
+          <textarea style="width: 100%; height: 100px;border: 1px solid #ccc; padding: 10px;margin-bottom: 10px;" placeholder="Tippe hier um uns eine Nachricht zu schreiben"></textarea>
+          <button class="button-outline button button-positive" ng-click="sendFeedback()">Nachricht senden</a>    <button style="float: right;" class="button-clear button button-assertive" ng-click="closeFeedbackModal()">Abbrechen</a>
+      </div>
+    </ion-content>
+  </ion-modal-view>
+</script>
+ -->

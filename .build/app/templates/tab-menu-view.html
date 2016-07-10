@@ -1,0 +1,146 @@
+ <ion-view view-title="Hi">
+   <ion-header-bar align-title="center" class="bar-datoni">
+    <div class="buttons">
+      <button class="button button-clear" ui-sref="tab.menu.list()">
+        <i class="icon ion-chevron-left"></i> Zurück
+      </button>
+    </div>
+    <h1 class="title">{{menu.title}}</h1>
+  </ion-header-bar>
+  <ion-content has-bouncing="true">
+    <div ng-if="!menu">
+      <center>
+            
+        <div class="padding subtle-text">
+          Karte wird geladen...<br/><br/>
+          <ion-spinner icon="android"></ion-spinner>
+        </div>
+    
+
+      </center>
+    </div>
+  	<div ng-if="menu">
+        <div class="error-box" ng-if="!datoniOpened()">
+        <i class="ion-android-warning"></i> Wir haben derzeit leider geschlossen! Versuche es zu unseren Öffnungszeiten noch einmal.
+      </div>
+      <div class="list">
+
+      <div class="item item-input-inset">
+        <button class="button-clear assertive"><span style="color: #333">Suche:</span> </button>
+          <label class="item-input-wrapper">
+            <input type="text" ng-model="search" placeholder="">
+          </label>
+        </div>
+      </div>
+
+
+
+
+      <div ng-repeat="product in menu.products | filter:search | orderBy:sortMenu">
+        <div class="list card">
+          <div class="item item-divider"><span style="font-size: 12px; font-weight: bold">Nr. {{::product.number}}</span> <small class="subdued" style="float:right"> <b>Preis: {{::product | price | currency}}</b></small><center ng-bind-html="product.name" data-ellipsis></center></div>
+          <div ng-if="product.description" class="item item-body">
+            <div style="height: 40px">
+              <small>{{::product.description}}&nbsp;</small>
+            </div>
+          </div>
+          <div class="item item-footer tabs tabs-secondary tabs-icon-left" style="">
+          <a ng-click="toggleFavorites(product)" class="tab-item">
+            <i class="icon ion-ios-heart" ng-class="{'assertive': isFavorite(product)}"></i>
+            Favorit
+          </a>
+          <a class="tab-item" ng-click="selectSize($event, product, menu.category)">
+            <i class="icon ion-share"></i>
+                Bestellen
+          </a>
+          <a ng-if="product.number != 20 && (categoryId == '4' || categoryId == '3')" ng-click="editIngredients(product, menu.category)" class="tab-item" >
+            <i class="icon ion-ios-list"></i>
+                Zutaten
+          </a>
+          <a ng-if="categoryId == 1" ng-click="editSaladIngredients(product, menu.category)" class="tab-item">
+            <i class="icon ion-ios-list"></i> Zutaten
+          </a>
+        </div>
+        </div>
+        <div style="height: 10px"></div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
+
+
+<script id="pizza-size-popover.html" type="text/ng-template">
+  <ion-popover-view>
+    <ion-header-bar>
+      <h1 class="title">Wähle die Größe</h1>
+    </ion-header-bar>
+    <ion-content>
+      <div class="list">
+        <div class="item" ng-click="addItemWithPrice(popoverItem, price)" ng-repeat="price in popoverItem.prices">{{price.size|capitalized|fixGrammar}}</div>
+      </div>
+    </ion-content>
+  </ion-popover-view>
+</script>
+
+<script id="dressing-popover.html" type="text/ng-template">
+  <ion-popover-view>
+    <ion-header-bar>
+      <h1 class="title">Welches Dressing?</h1>
+    </ion-header-bar>
+    <ion-content>
+      <ion-list>
+      	<ion-item ng-click="addItemWithDressing('Essig/Öl Dressing')">Essig/Öl Dressing</ion-item>
+      	<ion-item ng-click="addItemWithDressing('Joghurt Dressing')">Joghurt Dressing</ion-item>
+        <ion-item ng-click="addItemWithDressing('Balsamico Dressing')">Balsamico Dressing</ion-item>
+        <ion-item ng-click="addItemWithDressing('Cocktailsauce Dressing')">Cocktailsauce Dressing</ion-item>
+        <ion-item ng-click="addItemWithDressing('Ohne Dressing')">Ohne Dressing</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-popover-view>
+</script>
+
+<script id="salad-size-popover.html" type="text/ng-template">
+  <ion-popover-view>
+    <ion-header-bar>
+      <h1 class="title">Welches Größe?</h1>
+    </ion-header-bar>
+    <ion-content>
+      <ion-list>
+        <ion-item ng-click="addSaladSize({size: 'Klein', price: 5.0})">Klein</ion-item>
+        <ion-item ng-click="addSaladSize({size: 'Groß', price: 6.0})">Groß</ion-item>
+
+      </ion-list>
+    </ion-content>
+  </ion-popover-view>
+</script>
+
+<script id="soda-popover.html" type="text/ng-template">
+  <ion-popover-view>
+    <ion-header-bar>
+      <h1 class="title">Bitte Sorte auswählen</h1>
+    </ion-header-bar>
+    <ion-content>
+      <ion-list>
+      	<ion-item ng-click="addSoda('Coca Cola')">Coca Cola</ion-item>
+      	<ion-item ng-click="addSoda('Coca Cola Light')">Coca Cola Light</ion-item>
+      	<ion-item ng-click="addSoda('Fanta')">Fanta</ion-item>
+      	<ion-item ng-click="addSoda('Sprite')">Sprite</ion-item>
+      	<ion-item ng-click="addSoda('Mezzo Mix')">Mezzo Mix</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-popover-view>
+</script>
+
+<script id="wine-popover.html" type="text/ng-template">
+  <ion-popover-view>
+    <ion-header-bar>
+      <h1 class="title">Bitte Sorte auswählen</h1>
+    </ion-header-bar>
+    <ion-content>
+      <ion-list>
+      	<ion-item ng-click="addWine('Weißwein')">Weißwein</ion-item>
+      	<ion-item ng-click="addWine('Rotwein')">Rotwein</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-popover-view>
+</script>

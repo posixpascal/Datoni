@@ -1,0 +1,24 @@
+<ion-modal-view view-title="Bestellung abgeschlossen" ng-controller="OrderCheckController">
+     <ion-header-bar>
+         <button ng-if="state == 'finished'" ng-click="closeModal()" class="button button-assertive button-outline"><i class="ion-chevron-left"></i> Schließen</button>
+     </ion-header-bar>
+     <ion-content has-bouncing="true">
+
+          <div ng-if="state == 'loading'" class="padding subtle-text text-centered">
+            <h4 class="subtle-text">Bestellung eingegangen...</h4>
+
+            <center><ion-spinner class="big-spinner"></ion-spinner></center>
+            <p>Wir werden deine Bestellung nun entgegen nehmen, habe noch etwas Geduld...</p>
+          </div>
+  	      <div ng-if="state == 'finished'">
+          <div>
+          <center class="padding">
+             <h4 class="subtle-text">Deine Bestellung wurde erfolgreich übertragen!</h4>
+             <h4 class="subtle-text"><i style="font-size: 96px;" class="ion-checkmark-circled balanced"></i></h4>
+           </center>
+          </div>
+
+
+          
+    </ion-content>
+</ion-modal-view>

@@ -1,0 +1,53 @@
+<ion-view view-title="Favoriten">
+   <ion-header-bar align-title="center" class="bar-datoni">
+    <div class="buttons">
+      <button class="button button-clear" ui-sref="tab.profile.view">
+        <i class="icon ion-chevron-left"></i> Zurück
+      </button>
+    </div>
+      
+    <h1 class="title">Favoriten</h1>
+  </ion-header-bar>
+  <ion-content has-bouncing="true">
+
+
+
+      <div ng-if="favorites.length === 0">
+          <div class="vertical-center empty-node">
+              Noch keine Favoriten
+              <span class="emotion"><i class="ion-sad-outline"></i></span>
+              <div class="desc">
+                 Falls Dir eine unserer Pizzen besonders gut gefällt, kannst Du sie ganz einfach zu Deinen persönlichen Favoriten hinzufügen.<br/>
+                 Klicke dazu einfach auf das <i class="assertive ion-ios-heart"></i> Herz-Symbol in unserer Speisekarte.<br />
+                 <br/>
+              </div>
+          </div>
+      </div>
+    
+      <div ng-if="favorites.length > 0">
+          <div class="padding subtle-text">
+            Hier findest du eine Übersicht aller Favoriten. Klicke auf einen Eintrag um diesen in den Warenkorb hinzuzufügen.
+            
+          </div>
+          <ion-list show-delete="edit.show">
+              <ion-item ng-mousehold="removeFavorite(favorite, $index)" ng-click="cart.addItem(favorite.product, favorite.category)"   class="repeat-move-setup item item-icon-right item-avatar" ng-repeat="favorite in favorites">
+                  <img ng-src="{{favorite.category | category_image}}">
+                  {{favorite.product.name}}
+                  <p>{{favorite.product.description}}</p>
+                  <i class="icon ion-chevron-right"></i>
+                  <ion-delete-button ng-click="removeFavorite(favorite, $index)" class="ion-minus-circled"></ion-delete-button>
+      
+              </ion-item>
+          </ion-list>
+        
+          <div class="padding">
+              <button ng-click="edit.show = !edit.show" class="button button-assertive button-small">Bearbeiten</button>
+            </div>
+          
+      </div>
+	  
+
+
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,29 @@
+<ion-view view-title="Telefonnummer">
+     <ion-header-bar align-title="center" class="bar-datoni">
+    <div class="buttons">
+      <button class="button button-clear" ui-sref="tab.profile.view">
+        <i class="icon ion-chevron-left"></i> Zurück
+      </button>
+    </div>
+    <h1 class="title">Telefonnummer</h1>
+  </ion-header-bar>
+  <ion-content has-bouncing="true">
+  		<div ng-if="phonenumber && phonenumber.length">
+        <div class="padding  subtle-text">
+          Diese App ist an folgende Telefonnummer gebunden. Achtung! Bestellungen und Gutschriften sind mit dieser Nummer verknüpft.
+        </div>
+        <h1 class="text-center">{{phonenumber}}</h1>
+        <div class="padding subtle-text">
+          
+        </div>
+      </div>
+      <div ng-if="!phonenumber || phonenumber.length == 0" class="padding subtle-text">
+        Wir haben noch keine Telefonnummer hinterlegt.
+        Du wirst aufgefordert eine Telefonnummer bei deiner nächsten Bestellung anzugeben.
+      </div>
+
+
+
+
+  </ion-content>
+</ion-view>
