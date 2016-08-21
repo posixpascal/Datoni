@@ -21,10 +21,10 @@ module.exports = function CategoryModel(db) {
         "@pizza": "Pizza",
         "@veggie": "Vegetarisches",
         "@überbackenes": "Nudelgerichte",
-        "@pasta": "Überbackenes",
-        "@deutschekueche": "Deutsche Küche",
+        "@pasta": "Ueberbackenes",
+        "@deutschekueche": "DeutscheKueche",
         "@desserts": "Desserts", 
-        "@getraenke": "Getränke"
+        "@getraenke": "Getraenke"
     };
     var self = this;
     this.products = {};
