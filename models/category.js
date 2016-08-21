@@ -10,10 +10,10 @@ module.exports = function CategoryModel(db) {
         "Pizza",
         "Vegetarisches",
         "Nudelgerichte",
-        "Überbackenes",
-        "Deutsche Küche",
+        "Ueberbackenes",
+        "DeutscheKueche",
         "Desserts", 
-        "Getränke"
+        "Getraenke"
     ];
     var _cats = {
         "@salate": "Salate",
