@@ -1,7 +1,68 @@
 'use strict';
-
-
+var fs = require('fs');
+var xml = require("xml2js");
 module.exports = function CategoryModel(db) {
+    // read xml
+    var xmlData = fs.readFileSync("./models/menu_items.xml", "utf8");
+    this.categoryNames = [
+        "Salate",
+        "Vorspeisen",
+        "Pizza",
+        "Vegetarisches",
+        "Nudelgerichte",
+        "Überbackenes",
+        "Deutsche Küche",
+        "Desserts", 
+        "Getränke"
+    ];
+    var _cats = {
+        "@salate": "Salate",
+        "@vorspeisen": "Vorspeisen",
+        "@pizza": "Pizza",
+        "@veggie": "Vegetarisches",
+        "@überbackenes": "Nudelgerichte",
+        "@pasta": "Überbackenes",
+        "@deutschekueche": "Deutsche Küche",
+        "@desserts": "Desserts", 
+        "@getraenke": "Getränke"
+    };
+    var self = this;
+    this.products = {};
+    this.categoryNames.forEach(function(cat){
+        self.products[cat] = [];
+    });
+    
+    xml.parseString(xmlData, function(err, res){
+        if (err){ throw err; }
+        res = res.root;
+        
+        res.products[0].product.forEach(function(prod){
+            var prices = {};
+            var description = prod.$.description;
+            if (prod.ingredients && prod.ingredients[0].ingredient)
+                var ingredients = prod.ingredients[0].ingredient.map(function(i){ return i.$.name; });
+            else
+                var ingredients = [];
+
+            if (prod.prices[0].price.length > 1)
+                prod.prices[0].price.forEach(function(p){
+
+                    prices[p.$.name.toLowerCase().replace('ß', 'ss')] = p.$.value;
+                });
+            else 
+                prices = prod.prices[0].price[0].$.value;
+            self.products[_cats[prod.$.category]].push({
+            'id': prod.$.number,
+            'ingredients':ingredients,
+            'price': prices,
+            'description': (description ? description.replace('@auto', ingredients.join(', ')) : ingredients.join(', ')),
+            'name': prod.$.title,
+            })
+        });
+        fs.writeFileSync("json.json", JSON.stringify(self.products), "utf8");
+    });
+
+
     this.categories = [{
             name: 'Salate',
             id: '1',
@@ -52,8 +113,10 @@ module.exports = function CategoryModel(db) {
         },
     ];
 
+  //  this.products = {};
 
-    this.products = {
+
+   /* this.products = {
 
         'Salate': [{
             'id': '1',
@@ -1316,7 +1379,7 @@ module.exports = function CategoryModel(db) {
             'displaySubGroup': 'Wein',
             'name': 'Wein',
         }, ],
-    };
+    };*/
     this.all = function() {
         return this;
     };

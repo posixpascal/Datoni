@@ -3,15 +3,33 @@
 {<body}
 <div class="row">
 	<div class="small-12 medium-8 columns">
-		<h1>Jetzt neu! Online bestellen</h1>
+		<h1>Neues</h1>
 		
-		
-			<p>Kein Freund von Apps? Kein Problem, ab jetzt kannst du auch auf unserer Website ganz einfach Pizza bestellen.<br/>
+		<p style="color: #b72925">
+			<strong>Abschaltung der alten App Server</strong><br/>
+			Aufgrund erhöhter Störungen des Bestellsystems in den letzten Wochen und häufende Beschwerden unserer Kunden bleibt uns leider keine Alternative als die <b>alten</b> Server abzustellen. Dadurch ist es Nutzern der alten App (Version kleiner als 2) nicht mehr möglich Bestellungen über die App abzuwickeln. Benutzer der neuesten App sind davon nicht betroffen.
+<br/><br/>
+			Falls Sie nun von der Abschaltung betroffen sind, können Sie sich die neue Version der Anwendung auf folgendem Link herunterladen:<br>
+			<a href="https://itunes.apple.com/us/app/datoni-app/id1131040971?l=de&ls=1&mt=8">iPhone &amp; iPad</a>.<br/>
+			<a href="https://play.google.com/store/apps/details?id=de.pascalraszyk.datoniapp">Android</a>.<br/>
+
+			<br><br/>
+			Wir sind weiterhin im jeweiligen App Store unter "Da Toni" zu finden.
+
+		</b>
+		<br/><br/><br>
+				<p style="color: #b72925">
+			<strong>Neue Karte</strong><br/>
+			Die neueste Da Toni Karte wurde nun erfolgreich auf dieser Website eingebaut, viel Spaß!
+
+		</b>
+			<br/><br/><br/>
+		<!--	<p>Kein Freund von Apps? Kein Problem, ab jetzt kannst du auch auf unserer Website ganz einfach Pizza bestellen.<br/>
 			Klicke dazu einfach auf den folgende Schaltfläche.</p>
 
 			<a data-widget-start class="rounded-button" href="#">
 				Jetzt bestellen
-			</a>
+			</a>-->
 		
 		<h1>Da Toni als App</h1>
 		<img src="/images/teaser_only.png" style="float: left; width: 180px; height: auto; margin-right: 20px; border-radius: 5px; ">
