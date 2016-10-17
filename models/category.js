@@ -20,8 +20,8 @@ module.exports = function CategoryModel(db) {
         "@vorspeisen": "Vorspeisen",
         "@pizza": "Pizza",
         "@veggie": "VegetarischePizza",
-        "@überbackenes": "Nudelgerichte",
-        "@pasta": "Ueberbackenes",
+        "@überbackenes": "Ueberbackenes",
+        "@pasta": "Nudelgerichte",
         "@deutschekueche": "DeutscheKueche",
         "@desserts": "Desserts", 
         "@getraenke": "Getraenke"

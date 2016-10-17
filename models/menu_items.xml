@@ -1,2338 +1,2341 @@
 <root>
-    <categories>
-        <category 
-            id="salate"
-            title="Knackige Salate"
-            image="@auto"
-            description="Alle Salate..."
-            />
-        <category 
-            id="vorspeisen"
-            title="Knackige Salate"
-            image="@auto"
-            description="Alle Salate..."
-            />
-        <category 
-            id="pizza"
-            title="Pizza"
-            image="@auto"
-            description="Pizza"
-            />
-        <category 
-            id="veggie"
-            title="Vegatarische Pizza"
-            image="@auto"
-            description="veggie..."
-            />
+	<categories>
+		<category 
+			id="salate"
+			title="Knackige Salate"
+			image="@auto"
+			description="Alle Salate..."
+			/>
+		<category 
+			id="vorspeisen"
+			title="Knackige Salate"
+			image="@auto"
+			description="Alle Salate..."
+			/>
+		<category 
+			id="pizza"
+			title="Pizza"
+			image="@auto"
+			description="Pizza"
+			/>
+		<category 
+			id="veggie"
+			title="Vegatarische Pizza"
+			image="@auto"
+			description="veggie..."
+			/>
 
-        <category 
-            id="überbackenes"
-            title="Aus dem Backofen"
-            image="@auto"
-            description="new..."
-            />
-        <category 
-            id="pasta"
-            title="Nudelspezialitäten"
-            image="@auto"
-            description="new..."
-            />
-        <category 
-            id="deutschekueche"
-            title="Aus der deutschen Küche"
-            image="@auto"
-            description="new..."
-            />
-        <category 
-            id="desserts"
-            title="Dessert"
-            image="@auto"
-            description="new..."
-            />
-        <category 
-            id="getraenke"
-            title="Getränke"
-            image="@auto"
-            description="new..."
-            />
-    </categories>
+		<category 
+			id="überbackenes"
+			title="Aus dem Backofen"
+			image="@auto"
+			description="new..."
+			/>
+		<category 
+			id="pasta"
+			title="Nudelspezialitäten"
+			image="@auto"
+			description="new..."
+			/>
+		<category 
+			id="deutschekueche"
+			title="Aus der deutschen Küche"
+			image="@auto"
+			description="new..."
+			/>
+		<category 
+			id="desserts"
+			title="Dessert"
+			image="@auto"
+			description="new..."
+			/>
+		<category 
+			id="getraenke"
+			title="Getränke"
+			image="@auto"
+			description="new..."
+			/>
+	</categories>
 
-    <products>
-        <product
-            number="1"
-            category="@salate"
-            title="Tomatensalat"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomaten" />
-                    <ingredient name="Zwiebeln" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="4.00" />
-                </prices>
-        </product>
-        <product
-            number="2"
-            category="@salate"
-            title="Gemischter Salat"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Paprika" />
-                    <ingredient name="Gurken" />
-                    <ingredient name="Tomaten" />
-                    <ingredient name="Zwiebeln" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="4.50" />
-                </prices>
-        </product>
-        <product
-            number="3"
-            category="@salate"
-            title="Insalta Italiana"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Salat" />
-                    <ingredient name="Tomaten" />
-                    <ingredient name="Gurken" />
-                    <ingredient name="Paprika" />
-                    <ingredient name="Zwiebeln" />
-                    <ingredient name="Schinken" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Thunfisch" />
-                    <ingredient name="Oliven" />
-                    <ingredient name="Ei" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="4"
-            category="@salate"
-            title="Toscana Salat"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Salat" />
-                    <ingredient name="Tomaten" />
-                    <ingredient name="Gurken" />
-                    <ingredient name="Oliven" />
-                    <ingredient name="Putenfleisch-Streifen" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="5"
-            category="@salate"
-            title="Salat Quattro Formaggi"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Salat" />
-                    <ingredient name="Tomaten" />
-                    <ingredient name="Gurken" />
-                    <ingredient name="Zwiebeln" />
-                    <ingredient name="Oliven" />
-                    <ingredient name="Ei" />
-                    <ingredient name="Gorgonzola" />
-                    <ingredient name="Mozzarella" />
-                    <ingredient name="Basilikum" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.00" />
-                </prices>
-        </product>
-        <product
-            number="6"
-            category="@salate"
-            title="Insalata Caprese"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomaten" />
-                    <ingredient name="Mozzarella" />
-                    <ingredient name="Basilikum" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="7"
-            category="@salate"
-            title="Insalata Roma"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Salat" />
-                    <ingredient name="Tomaten" />
-                    <ingredient name="Gurken" />
-                    <ingredient name="Paprika" />
-                    <ingredient name="Artischocken" />
-                    <ingredient name="Zwiebeln" />
-                    <ingredient name="Salami" />
-                    <ingredient name="Schinken" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Thunfisch" />
-                    <ingredient name="milde Peperoni" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="8"
-            category="@salate"
-            title="Insalata Da Toni"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Salat" />
-                    <ingredient name="Tomaten" />
-                    <ingredient name="Gurken" />
-                    <ingredient name="Paprika" />
-                    <ingredient name="Mais" />
-                    <ingredient name="Ananas" />
-                    <ingredient name="Hähnchenbrust" />
-                    <ingredient name="Schinken" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Thunfisch" />
-                    <ingredient name="milde Peperoni" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.00" />
-                </prices>
-        </product>
-        <product
-            number="201"
-            category="@salate"
-            title="Fitness-Salat"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Gurken" />
-                    <ingredient name="Tomaten" />
-                    <ingredient name="Eisberg-Salat" removable="false"/>
-                    <ingredient name="Mais" />
-                    <ingredient name="Paprika" />
-                    <ingredient name="Oliven" />
-                    <ingredient name="Ei" />
-                    <ingredient name="Mozzarella" />
-                    <ingredient name="Artischocken" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.00" />
-                </prices>
-        </product>
-        <product
-            number="202"
-            category="@salate"
-            title="Schafskäse mit Salat"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Schafskäse" />
-                    <ingredient name="Oliven" />
-                    <ingredient name="Mais" />
-                    <ingredient name="Zwiebeln" />
-                    <ingredient name="Gurken" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.00" />
-                </prices>
-        </product>
-        <product
-            number="203"
-            category="@salate"
-            title="Tomaten-Gurken-Salat"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomaten" />
-                    <ingredient name="Gurken" />
-                    <ingredient name="Zwiebeln" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="5.50" />
-                </prices>
-        </product>
-        <product
-            number="204"
-            category="@salate"
-            title="Sommer-Salat"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Mozzarella" />
-                    <ingredient name="Gurken" />
-                    <ingredient name="Tomaten" />
-                    <ingredient name="Oliven" />
-                    <ingredient name="Zwiebeln" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.00" />
-                </prices>
-        </product>
-        <product
-            number="205"
-            category="@salate"
-            title="Ruccola-Salat"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Parmesankäse" />
-                    <ingredient name="Tomaten" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.00" />
-                </prices>
-        </product>
-        <product
-            number="206"
-            category="@salate"
-            title="Shrimps-Salat"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Shrimps" />
-                    <ingredient name="Ananas" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.00" />
-                </prices>
-        </product>
-        <product
-            number="207"
-            category="@salate"
-            title="Champignon-Salat"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomaten" />
-                    <ingredient name="Gurken" />
-                    <ingredient name="Mais" />
-                    <ingredient name="Champignons" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="208"
-            category="@salate"
-            title="Scampi-Ruccola-Salat"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Scampi" />
-                    <ingredient name="Tomaten" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.50" />
-                </prices>
-        </product>
-        <product
-            number="209"
-            category="@salate"
-            title="Bauernsalat"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Gurken" />
-                    <ingredient name="Tomaten" />
-                    <ingredient name="Paprika" />
-                    <ingredient name="Mais" />
-                    <ingredient name="Peperoni" />
-                    <ingredient name="Schafskäse" />
-                    <ingredient name="Oliven" />
-                    <ingredient name="Zwiebeln" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.00" />
-                </prices>
-        </product>
+	<products>
+		<product
+			number="1"
+			category="@salate"
+			title="Tomatensalat"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomaten" />
+					<ingredient name="Zwiebeln" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="4.00" />
+				</prices>
+		</product>
+		<product
+			number="2"
+			category="@salate"
+			title="Gemischter Salat"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Paprika" />
+					<ingredient name="Gurken" />
+					<ingredient name="Tomaten" />
+					<ingredient name="Zwiebeln" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="4.50" />
+				</prices>
+		</product>
+		<product
+			number="3"
+			category="@salate"
+			title="Insalta Italiana"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Salat" />
+					<ingredient name="Tomaten" />
+					<ingredient name="Gurken" />
+					<ingredient name="Paprika" />
+					<ingredient name="Zwiebeln" />
+					<ingredient name="Schinken" />
+					<ingredient name="Käse" />
+					<ingredient name="Thunfisch" />
+					<ingredient name="Oliven" />
+					<ingredient name="Ei" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="4"
+			category="@salate"
+			title="Toscana Salat"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Salat" />
+					<ingredient name="Tomaten" />
+					<ingredient name="Gurken" />
+					<ingredient name="Oliven" />
+					<ingredient name="Putenfleisch-Streifen" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="5"
+			category="@salate"
+			title="Salat Quattro Formaggi"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Salat" />
+					<ingredient name="Tomaten" />
+					<ingredient name="Gurken" />
+					<ingredient name="Zwiebeln" />
+					<ingredient name="Oliven" />
+					<ingredient name="Ei" />
+					<ingredient name="Gorgonzola" />
+					<ingredient name="Mozzarella" />
+					<ingredient name="Basilikum" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.00" />
+				</prices>
+		</product>
+		<product
+			number="6"
+			category="@salate"
+			title="Insalata Caprese"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomaten" />
+					<ingredient name="Mozzarella" />
+					<ingredient name="Basilikum" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="7"
+			category="@salate"
+			title="Insalata Roma"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Salat" />
+					<ingredient name="Tomaten" />
+					<ingredient name="Gurken" />
+					<ingredient name="Paprika" />
+					<ingredient name="Artischocken" />
+					<ingredient name="Zwiebeln" />
+					<ingredient name="Salami" />
+					<ingredient name="Schinken" />
+					<ingredient name="Käse" />
+					<ingredient name="Thunfisch" />
+					<ingredient name="milde Peperoni" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="8"
+			category="@salate"
+			title="Insalata Da Toni"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Salat" />
+					<ingredient name="Tomaten" />
+					<ingredient name="Gurken" />
+					<ingredient name="Paprika" />
+					<ingredient name="Mais" />
+					<ingredient name="Ananas" />
+					<ingredient name="Hähnchenbrust" />
+					<ingredient name="Schinken" />
+					<ingredient name="Käse" />
+					<ingredient name="Thunfisch" />
+					<ingredient name="milde Peperoni" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.00" />
+				</prices>
+		</product>
+		<product
+			number="201"
+			category="@salate"
+			title="Fitness-Salat"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Gurken" />
+					<ingredient name="Tomaten" />
+					<ingredient name="Eisberg-Salat" removable="false"/>
+					<ingredient name="Mais" />
+					<ingredient name="Paprika" />
+					<ingredient name="Oliven" />
+					<ingredient name="Ei" />
+					<ingredient name="Mozzarella" />
+					<ingredient name="Artischocken" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.00" />
+				</prices>
+		</product>
+		<product
+			number="202"
+			category="@salate"
+			title="Schafskäse mit Salat"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Schafskäse" />
+					<ingredient name="Oliven" />
+					<ingredient name="Mais" />
+					<ingredient name="Zwiebeln" />
+					<ingredient name="Gurken" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.00" />
+				</prices>
+		</product>
+		<product
+			number="203"
+			category="@salate"
+			title="Tomaten-Gurken-Salat"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomaten" />
+					<ingredient name="Gurken" />
+					<ingredient name="Zwiebeln" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="5.50" />
+				</prices>
+		</product>
+		<product
+			number="204"
+			category="@salate"
+			title="Sommer-Salat"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Mozzarella" />
+					<ingredient name="Gurken" />
+					<ingredient name="Tomaten" />
+					<ingredient name="Oliven" />
+					<ingredient name="Zwiebeln" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.00" />
+				</prices>
+		</product>
+		<product
+			number="205"
+			category="@salate"
+			title="Ruccola-Salat"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Parmesankäse" />
+					<ingredient name="Tomaten" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.00" />
+				</prices>
+		</product>
+		<product
+			number="206"
+			category="@salate"
+			title="Shrimps-Salat"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Shrimps" />
+					<ingredient name="Ananas" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.00" />
+				</prices>
+		</product>
+		<product
+			number="207"
+			category="@salate"
+			title="Champignon-Salat"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomaten" />
+					<ingredient name="Gurken" />
+					<ingredient name="Mais" />
+					<ingredient name="Champignons" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="208"
+			category="@salate"
+			title="Scampi-Ruccola-Salat"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Scampi" />
+					<ingredient name="Tomaten" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.50" />
+				</prices>
+		</product>
+		<product
+			number="209"
+			category="@salate"
+			title="Bauernsalat"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Gurken" />
+					<ingredient name="Tomaten" />
+					<ingredient name="Paprika" />
+					<ingredient name="Mais" />
+					<ingredient name="Peperoni" />
+					<ingredient name="Schafskäse" />
+					<ingredient name="Oliven" />
+					<ingredient name="Zwiebeln" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.00" />
+				</prices>
+		</product>
 
-        <!-- vorspeisen -->
-        <product
-            number="10"
-            category="@vorspeisen"
-            title="Knoblauchbrot"
-            description="@auto">
-                <prices>
-                    <price name="Default" value="1.50" />
-                </prices>
-        </product>
-        <product
-            number="11"
-            category="@vorspeisen"
-            title="Knoblauchbrot-Käsebrot"
-            description="Pizzabrot mit Käse und Knoblauch">
-                <prices>
-                    <price name="Default" value="2.80" />
-                </prices>
-        </product>
-        <product
-            number="12"
-            category="@vorspeisen"
-            title="Pizzabrot"
-            description="ohne Tomatensauce">
-                <prices>
-                    <price name="Default" value="1.50" />
-                </prices>
-        </product>
-        <product
-            number="13"
-            category="@vorspeisen"
-            title="Pizzabrot"
-            description="mit Tomatensauce und Knoblauch">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Knoblauch" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="2.80" />
-                </prices>
-        </product>
-        <product
-            number="20"
-            category="@pizza"
-            title="Pizza Margaritha"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="4.00" />
-                    <price name="Groß" value="5.00" />
-                    <price name="Familie" value="11.00" />
-                </prices>
-        </product>
-        <product
-            number="21"
-            category="@pizza"
-            title="Pizza Salami"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Salami" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="5.00" />
-                    <price name="Groß" value="6.00" />
-                    <price name="Familie" value="12.00" />
-                </prices>
-        </product>
-        <product
-            number="22"
-            category="@pizza"
-            title="Pizza Schinken"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Schinken" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="5.00" />
-                    <price name="Groß" value="6.00" />
-                    <price name="Familie" value="12.00" />
-                </prices>
-        </product>
-        <product
-            number="23"
-            category="@pizza"
-            title="Pizza Peperoniwurst"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Peperoniwurst" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="5.00" />
-                    <price name="Groß" value="6.00" />
-                    <price name="Familie" value="12.00" />
-                </prices>
-        </product>
-        <product
-            number="24"
-            category="@pizza"
-            title="Pizza Salami und Champignons"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Champignons" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="5.50" />
-                    <price name="Groß" value="6.50" />
-                    <price name="Familie" value="12.00" />
-                </prices>
-        </product>
-        <product
-            number="25"
-            category="@pizza"
-            title="Pizza Salami, Schinken, Champignons, Zwiebeln"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Champignons" />
-                    <ingredient name="Salami" />
-                    <ingredient name="Schinken" />
-                    <ingredient name="Zwiebeln" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="7.00" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="14.00" />
-                </prices>
-        </product>
-        <product
-            number="26"
-            category="@pizza"
-            title="Pizza Peperoniwurst, Champignons"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Champignons" />
-                    <ingredient name="Peperoniwurst" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="5.50" />
-                    <price name="Groß" value="6.50" />
-                    <price name="Familie" value="12.00" />
-                </prices>
-        </product>
-        <product
-            number="27"
-            category="@pizza"
-            title="Pizza Salami, Schinken"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Salami" />
-                    <ingredient name="Schinken" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="5.50" />
-                    <price name="Groß" value="6.50" />
-                    <price name="Familie" value="12.00" />
-                </prices>
-        </product>
-        <product
-            number="28"
-            category="@pizza"
-            title="Pizza Peperoniwurst, Schinken, Zwiebeln"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Peperoniwurst" />
-                    <ingredient name="Zwiebeln" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="5.50" />
-                    <price name="Groß" value="6.50" />
-                    <price name="Familie" value="12.00" />
-                </prices>
-        </product>
-        <product
-            number="29"
-            category="@pizza"
-            title="Pizza Champignons, Paprika, Zwiebeln"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Paprika" />
-                    <ingredient name="Champignons" />
-                    <ingredient name="Zwiebeln" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="14.00" />
-                </prices>
-        </product>
-        <product
-            number="30"
-            category="@pizza"
-            title="Pizza Salami, Paprika, Peperoni Paprika (scharf)"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Paprika" />
-                    <ingredient name="Salami" />
-                    <ingredient name="Peperoni" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="14.00" />
-                </prices>
-        </product>
-        <product
-            number="31"
-            category="@pizza"
-            title="Pizza Hawaii"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Schinken" />
-                    <ingredient name="Ananas" />
-                    <ingredient name="Käse" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.00" />
-                    <price name="Familie" value="13.50" />
-                </prices>
-        </product>
-        <product
-            number="32"
-            category="@pizza"
-            title="Pizza Tonno"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Thunfisch" />
-                    <ingredient name="Zwiebeln" />
-                    <ingredient name="Käse" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="13.50" />
-                </prices>
-        </product>
-        <product
-            number="33"
-            category="@pizza"
-            title="Pizza Vier Jahreszeiten"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Schinken" />
-                    <ingredient name="Salami" />
-                    <ingredient name="Oliven" />
-                    <ingredient name="Artischocken" />
-                    <ingredient name="Champignons" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="14.00" />
-                </prices>
-        </product>
-        <product
-            number="34"
-            category="@pizza"
-            title="Pizza Mozzarella"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Mozzarella" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="13.50" />
-                </prices>
-        </product>
-        <product
-            number="35"
-            category="@pizza"
-            title="Pizza Siciliana"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Oliven" />
-                    <ingredient name="Sardellen" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.00" />
-                    <price name="Groß" value="7.00" />
-                    <price name="Familie" value="13.00" />
-                </prices>
-        </product>
-        <product
-            number="36"
-            category="@pizza"
-            title="Pizza Capriciosa"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Schinken" />
-                    <ingredient name="Salami" />
-                    <ingredient name="Champignons" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.00" />
-                    <price name="Familie" value="13.50" />
-                </prices>
-        </product>
-        <product
-            number="37"
-            category="@pizza"
-            title="Pizza Calzone (Pizza Tasche)"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Schinken" />
-                    <ingredient name="Salami" />
-                    <ingredient name="Champignons" />
-                </ingredients>
-                <prices>
-                    <price name="Groß" value="7.50" />
-                </prices>
-        </product>
-        <product
-            number="38"
-            category="@pizza"
-            title="Pizza Mare"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Meeresfrüchte" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="7.00" />
-                    <price name="Groß" value="8.00" />
-                    <price name="Familie" value="15.00" />
-                </prices>
-        </product>
-        <product
-            number="39"
-            category="@pizza"
-            title="Pizza Scampi"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Scampi" />
-                    <ingredient name="Ruccola" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="7.00" />
-                    <price name="Groß" value="8.00" />
-                    <price name="Familie" value="15.00" />
-                </prices>
-        </product>
-        <product
-            number="40"
-            category="@pizza"
-            title="Pizza Spinaci"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Spinat" />
-                    <ingredient name="Mozzarella" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="14.50" />
-                </prices>
-        </product>
-        <product
-            number="41"
-            category="@pizza"
-            title="Pizza Quattro Formaggio"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="vier Käsesorten" removable="false" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="7.00" />
-                    <price name="Groß" value="8.00" />
-                    <price name="Familie" value="15.00" />
-                </prices>
-        </product>
-        <product
-            number="42"
-            category="@pizza"
-            title="Pizza"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Schinken" />
-                    <ingredient name="Salami" />
-                    <ingredient name="Peperoniwurst" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.00" />
-                    <price name="Familie" value="13.00" />
-                </prices>
-        </product>
-        <product
-            number="43"
-            category="@pizza"
-            title="Pizza"
-            description="@auto">
-                <options>
-                    <option name="spicy" value="true" />
-                </options>
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Hackfleisch" />
-                    <ingredient name="Mais" />
-                    <ingredient name="Peperoni" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="14.00" />
-                </prices>
-        </product>
-        <product
-            number="44"
-            category="@pizza"
-            title="Pizza"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Kapern" />
-                    <ingredient name="Sardellen" />
-                    <ingredient name="Knoblauch" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="14.00" />
-                </prices>
-        </product>
-        <product
-            number="45"
-            category="@pizza"
-            title="Pizza"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Schinken" />
-                    <ingredient name="Champignons" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="5.50" />
-                    <price name="Groß" value="6.50" />
-                    <price name="Familie" value="12.00" />
-                </prices>
-        </product>
-        <product
-            number="46"
-            category="@pizza"
-            title="Pizza"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Putenfleisch" />
-                    <ingredient name="Champignons" />
-                    <ingredient name="Mais" />
-                </ingredients>
-                <prices>
-                    <price name="Groß" value="8.00" />
-                    <price name="Familie" value="15.00" />
-                </prices>
-        </product>
-        <product
-            number="216"
-            category="@pizza"
-            title="Pizza Diavola"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Schinken" />
-                    <ingredient name="Salami" />
-                    <ingredient name="Pilze" />
-                    <ingredient name="Paprika" />
-                    <ingredient name="Zwiebeln" />
-                    <ingredient name="extra scharfes Öl" />
-                </ingredients>
-                <prices>
-                    <price name="Groß" value="7.00" />
-                    <price name="Groß" value="8.00" />
-                    <price name="Familie" value="15.00" />
-                </prices>
-        </product>
-        <product
-            number="217"
-            category="@pizza"
-            title="Pizza Carbonara"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" text="extra Käse" />
-                    <ingredient name="Sahnesauce" />
-                    <ingredient name="Schinken" />
-                    <ingredient name="Ei" />
-                </ingredients>
-                <prices>
-                    <price name="Groß" value="6.50" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="15.00" />
-                </prices>
-        </product>
-        <product
-            number="218"
-            category="@pizza"
-            title="Pizza Italia"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Tomaten" />
-                    <ingredient name="Parmesan" />
-                    <ingredient name="Parmaschinken" />
-                </ingredients>
-                <prices>
-                    <price name="Groß" value="8.00" />
-                    <price name="Familie" value="15.50" />
-                </prices>
-        </product>
-        <product
-            number="219"
-            category="@pizza"
-            title="Pizza Toni"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Mozzarella" />
-                    <ingredient name="Basilikum" />
-                    <ingredient name="Schinken" />
-                    <ingredient name="Oliven" />
-                    <ingredient name="Ei" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="7.00" />
-                    <price name="Groß" value="8.00" />
-                    <price name="Familie" value="15.00" />
-                </prices>
-        </product>
-        <product
-            number="220"
-            category="@pizza"
-            title="Pizza Venezia (scharf)"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Hackfleisch" />
-                    <ingredient name="Zwiebeln" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="14.50" />
-                </prices>
-        </product>
-        <product
-            number="221"
-            category="@pizza"
-            title="Pizza Hollandaise"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Hollandaisesauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Schinken" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="14.50" />
-                </prices>
-        </product>
-        <product
-            number="221a"
-            category="@pizza"
-            title="Pizza Hollandaise Peperoni"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Hollandaisesauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Peperoniwurst" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="14.50" />
-                </prices>
-        </product>
-        <product
-            number="222"
-            category="@pizza"
-            title="Pizza Sucuk"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Sucuk" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="14.00" />
-                </prices>
-        </product>
-        <product
-            number="223"
-            category="@pizza"
-            title="Pizza Tramonto"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Crème fraîche" />
-                    <ingredient name="Speck" />
-                    <ingredient name="Zwiebeln" />
-                    <ingredient name="Mais" />
-                    <ingredient name="Ei" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="8.00" />
-                    <price name="Familie" value="14.00" />
-                </prices>
-        </product>
-        <product
-            number="224"
-            category="@pizza"
-            title="Pizza Salmone"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Crème fraîche" />
-                    <ingredient name="Lachs" text="geräucherter Lachs" />
-                    <ingredient name="Zwiebeln" />
-                    <ingredient name="Käse" text="extra Käse" />
-                    <ingredient name="Ei" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="7.00" />
-                    <price name="Groß" value="8.00" />
-                    <price name="Familie" value="14.50" />
-                </prices>
-        </product>
-        <product
-            number="225"
-            category="@pizza"
-            title="Pizza Parma"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Hackfleisch" />
-                    <ingredient name="Peperoniwurst"/>
-                    <ingredient name="Schinken" />
-                    <ingredient name="Salami" />
-                    <ingredient name="Zwiebeln" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="7.00" />
-                    <price name="Groß" value="8.00" />
-                    <price name="Familie" value="15.00" />
-                </prices>
-        </product>
-        <product
-            number="226"
-            category="@pizza"
-            title="Pizza Ruccola"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Ruccola" />
-                    <ingredient name="Tomaten"/>
-                    <ingredient name="Mozzarella" />
-                    <ingredient name="Parmesankäse" />
-                    <ingredient name="Knoblauch" />
-                </ingredients>
-                <prices>
-                    <price name="Groß" value="8.00" />
-                    <price name="Familie" value="14.50" />
-                </prices>
-        </product>
-        <product
-            number="227"
-            category="@pizza"
-            title="Pizza"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Putenfleisch" />
-                    <ingredient name="Zwiebeln" />
-                    <ingredient name="grüne Peperoni" />
-                    <ingredient name="Knoblauch" />
-                </ingredients>
-                <prices>
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="14.00" />
-                </prices>
-        </product>
-        <product
-            number="228"
-            category="@pizza"
-            title="Pizza Roma Tomatensauce"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Crème fraîche" />
-                    <ingredient name="Schinken" />
-                    <ingredient name="Peperoniwurst" />
-                    <ingredient name="Zwiebeln" />
-                    <ingredient name="Knoblauch" />
-                </ingredients>
-                <prices>
-                    <price name="Groß" value="6.50" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="14.00" />
-                </prices>
-        </product>
-        <product
-            number="229"
-            category="@pizza"
-            title="Pizza Barbecue"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Hähnchenbrust" />
-                    <ingredient name="Barbecue" />
-                    <ingredient name="grüne Peperoni" />
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                </ingredients>
-                <prices>
-                    <price name="Groß" value="8.00" />
-                    <price name="Familie" value="14.00" />
-                </prices>
-        </product>
-        <product
-            number="230a"
-            category="@pizza"
-            title="Pizza Sucuk"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Sucuk" />
-                    <ingredient name="Schafskäse" />
-                    <ingredient name="grüne Peperoni" />
-                    <ingredient name="Zwiebeln" />
-                    <ingredient name="Knoblauch" />
-                </ingredients>
-                <prices>
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="14.50" />
-                </prices>
-        </product>
-        <product
-            number="230a"
-            category="@pizza"
-            title="Pizza Crème fraîche"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Crème fraîche" />
-                    <ingredient name="Hackfleisch" />
-                    <ingredient name="Zwiebeln" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.00" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="13.00" />
-                </prices>
-        </product>
-        <!-- veggies -->
-        <product
-            number="47"
-            category="@veggie"
-            title="Pizza"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Champignons" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="5.00" />
-                    <price name="Groß" value="6.00" />
-                    <price name="Familie" value="11.00" />
-                </prices>
-        </product>
-        <product
-            number="48"
-            category="@veggie"
-            title="Pizza Broccoli"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Broccoli" />
-                    <ingredient name="Paprika" />
-                    <ingredient name="Champignons" />
-                    <ingredient name="Zwiebeln" />
-                    <ingredient name="Mozzarella" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="7.00" />
-                    <price name="Groß" value="8.00" />
-                    <price name="Familie" value="14.50" />
-                </prices>
-        </product>
-        <product
-            number="49"
-            category="@veggie"
-            title="Pizza Vegetaria"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Broccoli" />
-                    <ingredient name="Paprika" />
-                    <ingredient name="Zwiebeln" />
-                    <ingredient name="Artischocken" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="7.00" />
-                    <price name="Groß" value="8.00" />
-                    <price name="Familie" value="14.50" />
-                </prices>
-        </product>
-        <product
-            number="50"
-            category="@veggie"
-            title="Pizza Spinaci"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Spinat" />
-                    <ingredient name="Gorgonzola" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="7.00" />
-                    <price name="Groß" value="8.00" />
-                    <price name="Familie" value="15.00" />
-                </prices>
-        </product>
-        <product
-            number="52"
-            category="@veggie"
-            title="Pizza Caprese"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Tomatensauce" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Mozzarella" />
-                    <ingredient name="Tomaten" />
-                    <ingredient name="Basilikum" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.00" />
-                    <price name="Familie" value="13.50" />
-                </prices>
-        </product>
-        <product
-            number="53"
-            category="@veggie"
-            title="Pizza Molise"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Crème fraîche" />
-                    <ingredient name="Krabben" />
-                    <ingredient name="Zwiebeln" />
-                    <ingredient name="Peperoni" />
-                    <ingredient name="Artischocken" />
-                    <ingredient name="Knoblauch" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="7.00" />
-                    <price name="Groß" value="8.00" />
-                    <price name="Familie" value="15.00" />
-                </prices>
-        </product>
-        <!-- neu -->
-        <product
-            number="160"
-            category="@pizza"
-            title="Pizza Spaghetti Bolognese"
-            description="@auto">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    
-                    <price name="Groß" value="7.00" />
-                    <price name="Familie" value="13.00" />
-                </prices>
-        </product>
-        <product
-            number="161"
-            category="@pizza"
-            title="Pizza Calzone Hollandaise"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Hollandaisesauce" />
-                    <ingredient name="Schinken" />
-                    <ingredient name="Peperoniwurst" />
-                    <ingredient name="Salami" />
-                    <ingredient name="Champignons" />
-                </ingredients>
-                <prices>
-                    <price name="Groß" value="8.00" />
-                </prices>
-        </product>
-        <product
-            number="162"
-            category="@pizza"
-            title="Pizza"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Hackfleisch" />
-                    <ingredient name="Champignons" />
-                    <ingredient name="Mais" />
-                    <ingredient name="scharfes Öl" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Tomatensauce" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.00" />
-                    <price name="Groß" value="7.00" />
-                    <price name="Familie" value="13.50" />
-                </prices>
-        </product>
-        <product
-            number="163"
-            category="@pizza"
-            title="Pizza"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Sucuk" />
-                    <ingredient name="Champignons" />
-                    <ingredient name="Oliven" />
-                    <ingredient name="Schafskäse" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Tomatensauce" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="13.50" />
-                </prices>
-        </product>
-        <product
-            number="164"
-            category="@pizza"
-            title="Pizza"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Crème fraîche" />
-                    <ingredient name="Mozzarella" />
-                    <ingredient name="Knoblauch" />
-                    <ingredient name="Oregano" />
-                    <ingredient name="Käse" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="5.00" />
-                    <price name="Groß" value="6.00" />
-                    <price name="Familie" value="11.00" />
-                </prices>
-        </product>
-        <product
-            number="165"
-            category="@pizza"
-            title="Pizza"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Crème fraîche" />
-                    <ingredient name="Schinken" />
-                    <ingredient name="Mais" />
-                    <ingredient name="Zwiebeln" />
-                    <ingredient name="Mozzarella" />
-                    <ingredient name="Oregano" />
-                    <ingredient name="Käse" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.00" />
-                    <price name="Groß" value="7.00" />
-                    <price name="Familie" value="14.00" />
-                </prices>
-        </product>
-        <product
-            number="166"
-            category="@pizza"
-            title="Pizza"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Crème fraîche" />
-                    <ingredient name="Lachs" />
-                    <ingredient name="Spinat" />
-                    <ingredient name="Zwiebeln" />
-                    <ingredient name="Käse" />
-                    <ingredient name="Knoblauch" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="7.50" />
-                    <price name="Groß" value="8.50" />
-                    <price name="Familie" value="15.50" />
-                </prices>
-        </product>
-        <product
-            number="167"
-            category="@pizza"
-            title="Pizza"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Hollandaisesauce" />
-                    <ingredient name="Käse" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="5.00" />
-                    <price name="Groß" value="6.00" />
-                    <price name="Familie" value="11.00" />
-                </prices>
-        </product>
-        <product
-            number="168"
-            category="@pizza"
-            title="Pizza"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Hackfleisch" />
-                    <ingredient name="Barbecuesauce" />
-                    <ingredient name="Peperoniwurst" />
-                    <ingredient name="Zwiebeln" />
-                    <ingredient name="Käse" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="14.00" />
-                </prices>
-        </product>
-        <product
-            number="169"
-            category="@pizza"
-            title="Pizza"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Hollandaisesauce" />
-                    <ingredient name="Schinken" />
-                    <ingredient name="Peperoniwurst" />
-                    <ingredient name="Käse" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="7.00" />
-                    <price name="Groß" value="8.00" />
-                    <price name="Familie" value="15.00" />
-                </prices>
-        </product>
-        <product
-            number="170"
-            category="@pizza"
-            title="Pizza"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Crème fraîche" />
-                    <ingredient name="Sucuk" />
-                    <ingredient name="Käse" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="7.50" />
-                    <price name="Familie" value="14.00" />
-                </prices>
-        </product>
-        <product
-            number="171"
-            category="@pizza"
-            title="Pizza"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Hollandaisesauce" />
-                    <ingredient name="Sucuk" />
-                    <ingredient name="Käse" />
-                </ingredients>
-                <prices>
-                    <price name="Klein" value="6.50" />
-                    <price name="Groß" value="8.00" />
-                    <price name="Familie" value="14.00" />
-                </prices>
-        </product>
-        <!-- backofen -->
-        <product
-            number="55"
-            category="@überbackenes"
-            title="Hausgemachte Lasagne alla Toni"
-            description="@auto">
-                <ingredients>
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="56"
-            category="@überbackenes"
-            title="Rigatoni al Forno nach Art des Hauses"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Schinken" />
-                    <ingredient name="Erbsen" />
-                    <ingredient name="Champignons" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="57"
-            category="@überbackenes"
-            title="Tortellini alla Panna"
-            description="@auto">
-                <ingredients>
-                    <ingredient name="Schinken" />
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="58"
-            category="@überbackenes"
-            title="Rigatoni Bolognese"
-            description="@auto">
-                <ingredients>
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="59"
-            category="@überbackenes"
-            title="Spaghetti Bolognese"
-            description="@auto">
-                <ingredients>
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="60"
-            category="@überbackenes"
-            title="Spaghetti Napoli"
-            description="@auto">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.00" />
-                </prices>
-        </product>
-        <product
-            number="61"
-            category="@überbackenes"
-            title="Rigatoni Napoli"
-            description="@auto">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.00" />
-                </prices>
-        </product>
-        <product
-            number="62"
-            category="@überbackenes"
-            title="Spaghetti Carbonara"
-            description="@auto">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="63"
-            category="@überbackenes"
-            title="Combinazione"
-            description="drei verschiedene Nudeln mit Käse überbacken">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="242"
-            category="@überbackenes"
-            title="Kartoffel-Schinken-Auflauf"
-            description="mit Schinken und Pilzen; überbacken">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="243"
-            category="@überbackenes"
-            title="Kartoffel-Broccoli-Auflauf"
-            description="mit Broccoli; überbacken">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="244"
-            category="@überbackenes"
-            title="Kartoffel-Blumenkohl-Auflauf"
-            description="mit Blumenkohl; überbacken">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="245"
-            category="@überbackenes"
-            title="Kartoffel-Zwiebel-Auflauf"
-            description="mit Zwiebeln, Schinken, Tomaten und Knoblauch; überbacken">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="246"
-            category="@überbackenes"
-            title="Kartoffel-Mozzarella-Auflauf"
-            description="mit Mozzarella, Spinat und Broccoli; überbacken">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <!-- pasta -->
-        <product
-            number="65"
-            category="@pasta"
-            title="Spaghetti Bolognese"
-            description="mit Hackfleischsauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="66"
-            category="@pasta"
-            title="Spaghetti Napoli"
-            description="mit Tomatensauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.00" />
-                </prices>
-        </product>
-        <product
-            number="67"
-            category="@pasta"
-            title="Spaghetti Putanese"
-            description="mit Oliven, Knoblauch, Kapern, Sardellen in Tomatensauce. Pikant.">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="68"
-            category="@pasta"
-            title="Spaghetti Aglio Olio e Peperoncini"
-            description="mit Olivenöl, Knoblauch und Peperoni, scharf">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.00" />
-                </prices>
-        </product>
-        <product
-            number="69"
-            category="@pasta"
-            title="Spaghetti Carbonara"
-            description="@auto">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="70"
-            category="@pasta"
-            title="Spaghetti all Tonno"
-            description="mit Thunfisch, Knoblauch in Tomatensauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="71"
-            category="@pasta"
-            title="Spaghetti Frutti di Mare"
-            description="mit Meeresfrüchten, Knoblauch in Tomatensauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.00" />
-                </prices>
-        </product>
-        <product
-            number="72"
-            bold="false"
-            category="@pasta"
-            title="Spaghetti alla Toni"
-            description="mit Shrimps, Knoblauch in Tomaten-Sahnesauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="73"
-            category="@pasta"
-            title="Spaghetti al Pesto"
-            description="mit Basilikumsauce, garniert mit Schafskäse">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="74"
-            category="@pasta"
-            title="Spaghetti Aglio Olio e Scampi"
-            description="mit Olivenöl, Knoblauch, Scampi (scharf)">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.00" />
-                </prices>
-        </product>
-        <product
-            number="75"
-            category="@pasta"
-            title="Spaghetti al Pollo"
-            description="mit Tomatensauce, Putenfleisch, Knoblauch (scharf)">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="230"
-            category="@pasta"
-            title="Tagliatelle"
-            description="mit Schinken-Sahnesauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="231"
-            category="@pasta"
-            title="Tagliatelle Bolognese"
-            description="mit Hackfleischsauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="232"
-            category="@pasta"
-            title="Tagliatelle"
-            description="mit frischem Broccoli, Tomaten-Sahnesauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="233"
-            category="@pasta"
-            title="Tagliatelle Boscaiola"
-            description="mit Champignons, Jäger-Sahnesauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="234"
-            category="@pasta"
-            title="Tagliatelle Surimi"
-            description="mit Krabbenfleisch, Zwiebeln, Tomaten-Sahnesauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.00" />
-                </prices>
-        </product>
-        <product
-            number="235"
-            category="@pasta"
-            title="Tagliatelle Salmone"
-            description="mit Lachs-Tomaten-Sahnesauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.00" />
-                </prices>
-        </product>
-        <product
-            number="236"
-            category="@pasta"
-            title="Tagliatelle alla Toni"
-            description="mit frischem Gemüse">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="79"
-            category="@pasta"
-            title="Penne al Arrabiata"
-            description="mit Tomatensauce (pikant)">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.00" />
-                </prices>
-        </product>
-        <product
-            number="80"
-            category="@pasta"
-            title="Penne al Broccoli"
-            description="mit frischem Broccoli, Knoblauch, Tomaten-Sahnesauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="81"
-            category="@pasta"
-            title="Penne Bolognese"
-            description="mit Hackfleischsauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="82"
-            category="@pasta"
-            title="Penne al Rucola"
-            description="mit Rucola, Knoblauch, Tomatensauce (pikant)">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="83"
-            category="@pasta"
-            title="Penne Quatro Formaggi"
-            description="mit vier verschiedenen Käsesorten">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.0" />
-                </prices>
-        </product>
-        <product
-            number="84"
-            category="@pasta"
-            title="Penne Gorgonzola"
-            description="mit Gorgonzola-Sahnesauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.00" />
-                </prices>
-        </product>
-        <product
-            number="85"
-            category="@pasta"
-            title="Penne all Tonno"
-            description="mit Thunfisch, Knoblauch in Tomatensauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.00" />
-                </prices>
-        </product>
-        <product
-            number="86"
-            category="@pasta"
-            title="Penne alla Toni"
-            description="mit Putenfleisch, Spinat, Knoblauch in Tomatensauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="87"
-            category="@pasta"
-            title="Penne alla Panna"
-            description="mit Schinken in Sahnesauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="88"
-            category="@pasta"
-            title="Penne all Zucchini"
-            description="mit Zucchini, Knoblauch, Basilikum in Tomatensauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="93"
-            category="@pasta"
-            title="Tortellini Napoli"
-            description="mit Tomatensauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.00" />
-                </prices>
-        </product>
-        <product
-            number="94"
-            category="@pasta"
-            title="Tortellini alla Paesane"
-            description="mit Schinken, Champignons, Erbsen, Tomaten-Sahnesauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="95"
-            category="@pasta"
-            title="Tortellini alla Panna"
-            description="mit Schinken-Sahnesauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.00" />
-                </prices>
-        </product>
-        <product
-            number="96"
-            category="@pasta"
-            title="Tortellini Gorgonzola"
-            description="mit Gorgonzola-Sahnesauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.00" />
-                </prices>
-        </product>
-        <product
-            number="97"
-            category="@pasta"
-            title="Tortellini Bolognese"
-            description="mit Hackfleischsauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="98"
-            category="@pasta"
-            title="Tortellini Quattro Formaggio"
-            description="mit vier Käsesorten">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.00" />
-                </prices>
-        </product>
-        <product
-            number="99"
-            category="@pasta"
-            title="Tortellini Spinaci"
-            description="mit Sahnesauce und Spinat">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="104"
-            category="@pasta"
-            title="Gnocchi Gorgonzola"
-            description="mit Gorgonzola - Sahnesauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.00" />
-                </prices>
-        </product>
-        <product
-            number="105"
-            category="@pasta"
-            title="Gnocchi al Pesto"
-            description="mit Basilikum und Sahnesauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="106"
-            category="@pasta"
-            title="Gnocchi al Pomodoro e Mozzarella"
-            description="mit Mozzarella, Basilikum in Tomatensauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="107"
-            category="@pasta"
-            title="Gnocchi Bolognese"
-            description="mit Hackfleischsauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
-        <product
-            number="108"
-            category="@pasta"
-            title="Gnocchi Spinaci"
-            description="mit Gorgonzolasauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="6.50" />
-                </prices>
-        </product>
+		<!-- vorspeisen -->
+		<product
+			number="10"
+			category="@vorspeisen"
+			title="Knoblauchbrot "
+			description="ohne Tomatensauce">
+				<prices>
+					<price name="Default" value="1.50" />
+				</prices>
+		</product>
+		<product
+			number="11"
+			category="@vorspeisen"
+			title="Knoblauchbrot mit Käse"
+			description="Pizzabrot mit Käse und Knoblauch">
+				<prices>
+					<price name="Default" value="2.80" />
+				</prices>
+		</product>
+		<product
+			number="12"
+			category="@vorspeisen"
+			title="Pizzabrot"
+			description="ohne Tomatensauce">
+				<prices>
+					<price name="Default" value="1.50" />
+				</prices>
+		</product>
+		<product
+			number="13"
+			category="@vorspeisen"
+			title="Pizzabrot"
+			description="mit Tomatensauce und Knoblauch">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Knoblauch" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="2.80" />
+				</prices>
+		</product>
 
-        <product
-            number="115"
-            category="@deutschekueche"
-            title="Schnitzel 'Wiener Art'"
-            description="">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="7.50" />
-                </prices>
-        </product>
-        <product
-            number="116"
-            category="@deutschekueche"
-            title="Jägerschnitzel"
-            description="">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="8.50" />
-                </prices>
-        </product>
-        <product
-            number="117"
-            category="@deutschekueche"
-            title="Rahmschnitzel"
-            description="mit Rahmsauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="8.00" />
-                </prices>
-        </product>
-        <product
-            number="118"
-            category="@deutschekueche"
-            title="Zigeunerschnitzel"
-            description="">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="8.50" />
-                </prices>
-        </product>
-        <product
-            number="119"
-            category="@deutschekueche"
-            title="Schweineschnitzel"
-            description="mit Champignons in Rahmsauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="8.50" />
-                </prices>
-        </product>
-        <product
-            number="120"
-            category="@deutschekueche"
-            title="Hawaiischnitzel"
-            description="mit Ananas und Käse überbacken. Sahnesauce.">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="8.50" />
-                </prices>
-        </product>
-        <product
-            number="121"
-            category="@deutschekueche"
-            title="Schnitzel 'Schweizer Art'"
-            description="mit Schinken und Käse überbacken">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="8.50" />
-                </prices>
-        </product>
-        <product
-            number="122"
-            category="@deutschekueche"
-            title="Schnitzel 'Bolognese'"
-            description="mit Schinken, Käse und Bolognesesauce überbacken">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="8.50" />
-                </prices>
-        </product>
-        <product
-            number="123"
-            category="@deutschekueche"
-            title="Rumpelstilzchen - Kinderschnitzel"
-            description="mit Pommes">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="5.00" />
-                </prices>
-        </product>
-        <product
-            number="124"
-            category="@deutschekueche"
-            title="Zwiebelschnitzel"
-            description="">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="8.50" />
-                </prices>
-        </product>
-        <product
-            number="130"
-            category="@deutschekueche"
-            title="Putenschnitzel paniert"
-            description="">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="8.0" />
-                </prices>
-        </product>
-        <product
-            number="131"
-            category="@deutschekueche"
-            title="Putenschnitzel"
-            description="mit frischen Champignons in Sahnesauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="8.50" />
-                </prices>
-        </product>
-        <product
-            number="132"
-            category="@deutschekueche"
-            title="Putzenschnitzel"
-            description="mit Jägersauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="8.50" />
-                </prices>
-        </product>
-        <product
-            number="133"
-            category="@deutschekueche"
-            title="Putenschnitzel in Curry"
-            description="Ananas Sahne Sauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="8.50" />
-                </prices>
-        </product>
-        <product
-            number="134"
-            category="@deutschekueche"
-            title="Putengeschnetzeltes mit Bandnudeln"
-            description="Champignon Rahm Sauce">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="8.50" />
-                </prices>
-        </product>
-        <product
-            number="140"
-            category="@desserts"
-            title="Tiramisu alla Toni"
-            description="(hausgemacht) nur Freitags, Samstags und Sonntags.">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="4.00" />
-                </prices>
-        </product>
-        <product
-            number="145"
-            category="@getraenke"
-            title="Getränke (0.33L)"
-            description="0.33L">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="1.50" />
-                </prices>
-        </product>
-        <product
-            number="146"
-            category="@getraenke"
-            title="Getränke (1L)"
-            description="1L">
-                <ingredients>
-                    
-                </ingredients>
-                <prices>
-                    <price name="Default" value="2.50" />
-                </prices>
-        </product>
-    </products>
+		<!-- pizza -->
+		<product
+			number="20"
+			category="@pizza"
+			title="Pizza Margaritha"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="4.00" />
+					<price name="Groß" value="5.00" />
+					<price name="Familie" value="11.00" />
+				</prices>
+		</product>
+		<product
+			number="21"
+			category="@pizza"
+			title="Pizza Salami"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Salami" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="5.00" />
+					<price name="Groß" value="6.00" />
+					<price name="Familie" value="12.00" />
+				</prices>
+		</product>
+		<product
+			number="22"
+			category="@pizza"
+			title="Pizza Schinken"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Schinken" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="5.00" />
+					<price name="Groß" value="6.00" />
+					<price name="Familie" value="12.00" />
+				</prices>
+		</product>
+		<product
+			number="23"
+			category="@pizza"
+			title="Pizza Peperoniwurst"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Peperoniwurst" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="5.00" />
+					<price name="Groß" value="6.00" />
+					<price name="Familie" value="12.00" />
+				</prices>
+		</product>
+		<product
+			number="24"
+			category="@pizza"
+			title="Pizza Salami und Champignons"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Champignons" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="5.50" />
+					<price name="Groß" value="6.50" />
+					<price name="Familie" value="12.00" />
+				</prices>
+		</product>
+		<product
+			number="25"
+			category="@pizza"
+			title="Pizza Salami, Schinken, Champignons, Zwiebeln"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Champignons" />
+					<ingredient name="Salami" />
+					<ingredient name="Schinken" />
+					<ingredient name="Zwiebeln" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="7.00" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="14.00" />
+				</prices>
+		</product>
+		<product
+			number="26"
+			category="@pizza"
+			title="Pizza Peperoniwurst, Champignons"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Champignons" />
+					<ingredient name="Peperoniwurst" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="5.50" />
+					<price name="Groß" value="6.50" />
+					<price name="Familie" value="12.00" />
+				</prices>
+		</product>
+		<product
+			number="27"
+			category="@pizza"
+			title="Pizza Salami, Schinken"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Salami" />
+					<ingredient name="Schinken" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="5.50" />
+					<price name="Groß" value="6.50" />
+					<price name="Familie" value="12.00" />
+				</prices>
+		</product>
+		<product
+			number="28"
+			category="@pizza"
+			title="Pizza Peperoniwurst, Schinken, Zwiebeln"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Peperoniwurst" />
+					<ingredient name="Zwiebeln" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="5.50" />
+					<price name="Groß" value="6.50" />
+					<price name="Familie" value="12.00" />
+				</prices>
+		</product>
+		<product
+			number="29"
+			category="@pizza"
+			title="Pizza Champignons, Paprika, Zwiebeln"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Paprika" />
+					<ingredient name="Champignons" />
+					<ingredient name="Zwiebeln" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="14.00" />
+				</prices>
+		</product>
+		<product
+			number="30"
+			category="@pizza"
+			title="Pizza Salami, Paprika, Peperoni Paprika (scharf)"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Paprika" />
+					<ingredient name="Salami" />
+					<ingredient name="Peperoni" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="14.00" />
+				</prices>
+		</product>
+		<product
+			number="31"
+			category="@pizza"
+			title="Pizza Hawaii"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Schinken" />
+					<ingredient name="Ananas" />
+					<ingredient name="Käse" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.00" />
+					<price name="Familie" value="13.50" />
+				</prices>
+		</product>
+		<product
+			number="32"
+			category="@pizza"
+			title="Pizza Tonno"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Thunfisch" />
+					<ingredient name="Zwiebeln" />
+					<ingredient name="Käse" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="13.50" />
+				</prices>
+		</product>
+		<product
+			number="33"
+			category="@pizza"
+			title="Pizza Vier Jahreszeiten"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Schinken" />
+					<ingredient name="Salami" />
+					<ingredient name="Oliven" />
+					<ingredient name="Artischocken" />
+					<ingredient name="Champignons" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="14.00" />
+				</prices>
+		</product>
+		<product
+			number="34"
+			category="@pizza"
+			title="Pizza Mozzarella"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Mozzarella" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="13.50" />
+				</prices>
+		</product>
+		<product
+			number="35"
+			category="@pizza"
+			title="Pizza Siciliana"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Oliven" />
+					<ingredient name="Sardellen" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.00" />
+					<price name="Groß" value="7.00" />
+					<price name="Familie" value="13.00" />
+				</prices>
+		</product>
+		<product
+			number="36"
+			category="@pizza"
+			title="Pizza Capriciosa"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Schinken" />
+					<ingredient name="Salami" />
+					<ingredient name="Champignons" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.00" />
+					<price name="Familie" value="13.50" />
+				</prices>
+		</product>
+		<product
+			number="37"
+			category="@pizza"
+			title="Pizza Calzone (Pizza Tasche)"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Schinken" />
+					<ingredient name="Salami" />
+					<ingredient name="Champignons" />
+				</ingredients>
+				<prices>
+					<price name="Groß" value="7.50" />
+				</prices>
+		</product>
+		<product
+			number="38"
+			category="@pizza"
+			title="Pizza Mare"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Meeresfrüchte" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="7.00" />
+					<price name="Groß" value="8.00" />
+					<price name="Familie" value="15.00" />
+				</prices>
+		</product>
+		<product
+			number="39"
+			category="@pizza"
+			title="Pizza Scampi"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Scampi" />
+					<ingredient name="Ruccola" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="7.00" />
+					<price name="Groß" value="8.00" />
+					<price name="Familie" value="15.00" />
+				</prices>
+		</product>
+		<product
+			number="40"
+			category="@pizza"
+			title="Pizza Spinaci"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Spinat" />
+					<ingredient name="Mozzarella" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="14.50" />
+				</prices>
+		</product>
+		<product
+			number="41"
+			category="@pizza"
+			title="Pizza Quattro Formaggio"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="vier Käsesorten" removable="false" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="7.00" />
+					<price name="Groß" value="8.00" />
+					<price name="Familie" value="15.00" />
+				</prices>
+		</product>
+		<product
+			number="42"
+			category="@pizza"
+			title="Pizza"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Schinken" />
+					<ingredient name="Salami" />
+					<ingredient name="Peperoniwurst" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.00" />
+					<price name="Familie" value="13.00" />
+				</prices>
+		</product>
+		<product
+			number="43"
+			category="@pizza"
+			title="Pizza"
+			description="@auto">
+				<options>
+					<option name="spicy" value="true" />
+				</options>
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Hackfleisch" />
+					<ingredient name="Mais" />
+					<ingredient name="Peperoni" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="14.00" />
+				</prices>
+		</product>
+		<product
+			number="44"
+			category="@pizza"
+			title="Pizza"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Kapern" />
+					<ingredient name="Sardellen" />
+					<ingredient name="Knoblauch" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="14.00" />
+				</prices>
+		</product>
+		<product
+			number="45"
+			category="@pizza"
+			title="Pizza"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Schinken" />
+					<ingredient name="Champignons" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="5.50" />
+					<price name="Groß" value="6.50" />
+					<price name="Familie" value="12.00" />
+				</prices>
+		</product>
+		<product
+			number="46"
+			category="@pizza"
+			title="Pizza"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Putenfleisch" />
+					<ingredient name="Champignons" />
+					<ingredient name="Mais" />
+				</ingredients>
+				<prices>
+					<price name="Groß" value="8.00" />
+					<price name="Familie" value="15.00" />
+				</prices>
+		</product>
+		<product
+			number="216"
+			category="@pizza"
+			title="Pizza Diavola"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Schinken" />
+					<ingredient name="Salami" />
+					<ingredient name="Pilze" />
+					<ingredient name="Paprika" />
+					<ingredient name="Zwiebeln" />
+					<ingredient name="extra scharfes Öl" />
+				</ingredients>
+				<prices>
+					<price name="Groß" value="7.00" />
+					<price name="Groß" value="8.00" />
+					<price name="Familie" value="15.00" />
+				</prices>
+		</product>
+		<product
+			number="217"
+			category="@pizza"
+			title="Pizza Carbonara"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" text="extra Käse" />
+					<ingredient name="Sahnesauce" />
+					<ingredient name="Schinken" />
+					<ingredient name="Ei" />
+				</ingredients>
+				<prices>
+					<price name="Groß" value="6.50" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="15.00" />
+				</prices>
+		</product>
+		<product
+			number="218"
+			category="@pizza"
+			title="Pizza Italia"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Tomaten" />
+					<ingredient name="Parmesan" />
+					<ingredient name="Parmaschinken" />
+				</ingredients>
+				<prices>
+					<price name="Groß" value="8.00" />
+					<price name="Familie" value="15.50" />
+				</prices>
+		</product>
+		<product
+			number="219"
+			category="@pizza"
+			title="Pizza Toni"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Mozzarella" />
+					<ingredient name="Basilikum" />
+					<ingredient name="Schinken" />
+					<ingredient name="Oliven" />
+					<ingredient name="Ei" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="7.00" />
+					<price name="Groß" value="8.00" />
+					<price name="Familie" value="15.00" />
+				</prices>
+		</product>
+		<product
+			number="220"
+			category="@pizza"
+			title="Pizza Venezia (scharf)"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Hackfleisch" />
+					<ingredient name="Zwiebeln" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="14.50" />
+				</prices>
+		</product>
+		<product
+			number="221"
+			category="@pizza"
+			title="Pizza Hollandaise"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Hollandaisesauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Schinken" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="14.50" />
+				</prices>
+		</product>
+		<product
+			number="221a"
+			category="@pizza"
+			title="Pizza Hollandaise Peperoni"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Hollandaisesauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Peperoniwurst" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="14.50" />
+				</prices>
+		</product>
+		<product
+			number="222"
+			category="@pizza"
+			title="Pizza Sucuk"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Sucuk" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="14.00" />
+				</prices>
+		</product>
+		<product
+			number="223"
+			category="@pizza"
+			title="Pizza Tramonto"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Crème fraîche" />
+					<ingredient name="Speck" />
+					<ingredient name="Zwiebeln" />
+					<ingredient name="Mais" />
+					<ingredient name="Ei" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="8.00" />
+					<price name="Familie" value="14.00" />
+				</prices>
+		</product>
+		<product
+			number="224"
+			category="@pizza"
+			title="Pizza Salmone"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Crème fraîche" />
+					<ingredient name="Lachs" text="geräucherter Lachs" />
+					<ingredient name="Zwiebeln" />
+					<ingredient name="Käse" text="extra Käse" />
+					<ingredient name="Ei" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="7.00" />
+					<price name="Groß" value="8.00" />
+					<price name="Familie" value="14.50" />
+				</prices>
+		</product>
+		<product
+			number="225"
+			category="@pizza"
+			title="Pizza Parma"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Hackfleisch" />
+					<ingredient name="Peperoniwurst"/>
+					<ingredient name="Schinken" />
+					<ingredient name="Salami" />
+					<ingredient name="Zwiebeln" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="7.00" />
+					<price name="Groß" value="8.00" />
+					<price name="Familie" value="15.00" />
+				</prices>
+		</product>
+		<product
+			number="226"
+			category="@pizza"
+			title="Pizza Ruccola"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Ruccola" />
+					<ingredient name="Tomaten"/>
+					<ingredient name="Mozzarella" />
+					<ingredient name="Parmesankäse" />
+					<ingredient name="Knoblauch" />
+				</ingredients>
+				<prices>
+					<price name="Groß" value="8.00" />
+					<price name="Familie" value="14.50" />
+				</prices>
+		</product>
+		<product
+			number="227"
+			category="@pizza"
+			title="Pizza"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Putenfleisch" />
+					<ingredient name="Zwiebeln" />
+					<ingredient name="grüne Peperoni" />
+					<ingredient name="Knoblauch" />
+				</ingredients>
+				<prices>
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="14.00" />
+				</prices>
+		</product>
+		<product
+			number="228"
+			category="@pizza"
+			title="Pizza Roma Tomatensauce"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Crème fraîche" />
+					<ingredient name="Schinken" />
+					<ingredient name="Peperoniwurst" />
+					<ingredient name="Zwiebeln" />
+					<ingredient name="Knoblauch" />
+				</ingredients>
+				<prices>
+					<price name="Groß" value="6.50" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="14.00" />
+				</prices>
+		</product>
+		<product
+			number="229"
+			category="@pizza"
+			title="Pizza Barbecue"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Hähnchenbrust" />
+					<ingredient name="Barbecue" />
+					<ingredient name="grüne Peperoni" />
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+				</ingredients>
+				<prices>
+					<price name="Groß" value="8.00" />
+					<price name="Familie" value="14.00" />
+				</prices>
+		</product>
+		<product
+			number="230a"
+			category="@pizza"
+			title="Pizza Sucuk"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Sucuk" />
+					<ingredient name="Schafskäse" />
+					<ingredient name="grüne Peperoni" />
+					<ingredient name="Zwiebeln" />
+					<ingredient name="Knoblauch" />
+				</ingredients>
+				<prices>
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="14.50" />
+				</prices>
+		</product>
+		<product
+			number="230a"
+			category="@pizza"
+			title="Pizza Crème fraîche"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Crème fraîche" />
+					<ingredient name="Hackfleisch" />
+					<ingredient name="Zwiebeln" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.00" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="13.00" />
+				</prices>
+		</product>
+		<!-- veggies -->
+		<product
+			number="47"
+			category="@veggie"
+			title="Pizza"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Champignons" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="5.00" />
+					<price name="Groß" value="6.00" />
+					<price name="Familie" value="11.00" />
+				</prices>
+		</product>
+		<product
+			number="48"
+			category="@veggie"
+			title="Pizza Broccoli"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Broccoli" />
+					<ingredient name="Paprika" />
+					<ingredient name="Champignons" />
+					<ingredient name="Zwiebeln" />
+					<ingredient name="Mozzarella" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="7.00" />
+					<price name="Groß" value="8.00" />
+					<price name="Familie" value="14.50" />
+				</prices>
+		</product>
+		<product
+			number="49"
+			category="@veggie"
+			title="Pizza Vegetaria"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Broccoli" />
+					<ingredient name="Paprika" />
+					<ingredient name="Zwiebeln" />
+					<ingredient name="Artischocken" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="7.00" />
+					<price name="Groß" value="8.00" />
+					<price name="Familie" value="14.50" />
+				</prices>
+		</product>
+		<product
+			number="50"
+			category="@veggie"
+			title="Pizza Spinaci"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Spinat" />
+					<ingredient name="Gorgonzola" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="7.00" />
+					<price name="Groß" value="8.00" />
+					<price name="Familie" value="15.00" />
+				</prices>
+		</product>
+		<product
+			number="52"
+			category="@veggie"
+			title="Pizza Caprese"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Tomatensauce" />
+					<ingredient name="Käse" />
+					<ingredient name="Mozzarella" />
+					<ingredient name="Tomaten" />
+					<ingredient name="Basilikum" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.00" />
+					<price name="Familie" value="13.50" />
+				</prices>
+		</product>
+		<product
+			number="53"
+			category="@veggie"
+			title="Pizza Molise"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Crème fraîche" />
+					<ingredient name="Krabben" />
+					<ingredient name="Zwiebeln" />
+					<ingredient name="Peperoni" />
+					<ingredient name="Artischocken" />
+					<ingredient name="Knoblauch" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="7.00" />
+					<price name="Groß" value="8.00" />
+					<price name="Familie" value="15.00" />
+				</prices>
+		</product>
+		<!-- neu -->
+		<product
+			number="160"
+			category="@pizza"
+			title="Pizza Spaghetti Bolognese"
+			description="@auto">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					
+					<price name="Groß" value="7.00" />
+					<price name="Familie" value="13.00" />
+				</prices>
+		</product>
+		<product
+			number="161"
+			category="@pizza"
+			title="Pizza Calzone Hollandaise"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Hollandaisesauce" />
+					<ingredient name="Schinken" />
+					<ingredient name="Peperoniwurst" />
+					<ingredient name="Salami" />
+					<ingredient name="Champignons" />
+				</ingredients>
+				<prices>
+					<price name="Groß" value="8.00" />
+				</prices>
+		</product>
+		<product
+			number="162"
+			category="@pizza"
+			title="Pizza"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Hackfleisch" />
+					<ingredient name="Champignons" />
+					<ingredient name="Mais" />
+					<ingredient name="scharfes Öl" />
+					<ingredient name="Käse" />
+					<ingredient name="Tomatensauce" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.00" />
+					<price name="Groß" value="7.00" />
+					<price name="Familie" value="13.50" />
+				</prices>
+		</product>
+		<product
+			number="163"
+			category="@pizza"
+			title="Pizza"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Sucuk" />
+					<ingredient name="Champignons" />
+					<ingredient name="Oliven" />
+					<ingredient name="Schafskäse" />
+					<ingredient name="Käse" />
+					<ingredient name="Tomatensauce" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="13.50" />
+				</prices>
+		</product>
+		<product
+			number="164"
+			category="@pizza"
+			title="Pizza"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Crème fraîche" />
+					<ingredient name="Mozzarella" />
+					<ingredient name="Knoblauch" />
+					<ingredient name="Oregano" />
+					<ingredient name="Käse" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="5.00" />
+					<price name="Groß" value="6.00" />
+					<price name="Familie" value="11.00" />
+				</prices>
+		</product>
+		<product
+			number="165"
+			category="@pizza"
+			title="Pizza"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Crème fraîche" />
+					<ingredient name="Schinken" />
+					<ingredient name="Mais" />
+					<ingredient name="Zwiebeln" />
+					<ingredient name="Mozzarella" />
+					<ingredient name="Oregano" />
+					<ingredient name="Käse" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.00" />
+					<price name="Groß" value="7.00" />
+					<price name="Familie" value="14.00" />
+				</prices>
+		</product>
+		<product
+			number="166"
+			category="@pizza"
+			title="Pizza"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Crème fraîche" />
+					<ingredient name="Lachs" />
+					<ingredient name="Spinat" />
+					<ingredient name="Zwiebeln" />
+					<ingredient name="Käse" />
+					<ingredient name="Knoblauch" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="7.50" />
+					<price name="Groß" value="8.50" />
+					<price name="Familie" value="15.50" />
+				</prices>
+		</product>
+		<product
+			number="167"
+			category="@pizza"
+			title="Pizza mit Hollandaisesauce"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Hollandaisesauce" />
+					<ingredient name="Käse" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="5.00" />
+					<price name="Groß" value="6.00" />
+					<price name="Familie" value="11.00" />
+				</prices>
+		</product>
+		<product
+			number="168"
+			category="@pizza"
+			title="Pizza"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Hackfleisch" />
+					<ingredient name="Barbecuesauce" />
+					<ingredient name="Peperoniwurst" />
+					<ingredient name="Zwiebeln" />
+					<ingredient name="Käse" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="14.00" />
+				</prices>
+		</product>
+		<product
+			number="169"
+			category="@pizza"
+			title="Pizza"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Hollandaisesauce" />
+					<ingredient name="Schinken" />
+					<ingredient name="Peperoniwurst" />
+					<ingredient name="Käse" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="7.00" />
+					<price name="Groß" value="8.00" />
+					<price name="Familie" value="15.00" />
+				</prices>
+		</product>
+		<product
+			number="170"
+			category="@pizza"
+			title="Pizza"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Crème fraîche" />
+					<ingredient name="Sucuk" />
+					<ingredient name="Käse" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="14.00" />
+				</prices>
+		</product>
+		<product
+			number="171"
+			category="@pizza"
+			title="Pizza"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Hollandaisesauce" />
+					<ingredient name="Sucuk" />
+					<ingredient name="Käse" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.50" />
+					<price name="Groß" value="8.00" />
+					<price name="Familie" value="14.00" />
+				</prices>
+		</product>
+		<!-- backofen -->
+		<product
+			number="55"
+			category="@überbackenes"
+			title="Hausgemachte Lasagne alla Toni"
+			description="@auto">
+				<ingredients>
+
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="56"
+			category="@überbackenes"
+			title="Rigatoni al Forno nach Art des Hauses"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Schinken" />
+					<ingredient name="Erbsen" />
+					<ingredient name="Champignons" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="57"
+			category="@überbackenes"
+			title="Tortellini alla Panna"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Schinken" />
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="58"
+			category="@überbackenes"
+			title="Rigatoni Bolognese"
+			description="@auto">
+				<ingredients>
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="59"
+			category="@überbackenes"
+			title="Spaghetti Bolognese"
+			description="@auto">
+				<ingredients>
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="60"
+			category="@überbackenes"
+			title="Spaghetti Napoli"
+			description="@auto">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.00" />
+				</prices>
+		</product>
+		<product
+			number="61"
+			category="@überbackenes"
+			title="Rigatoni Napoli"
+			description="@auto">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.00" />
+				</prices>
+		</product>
+		<product
+			number="62"
+			category="@überbackenes"
+			title="Spaghetti Carbonara"
+			description="@auto">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="63"
+			category="@überbackenes"
+			title="Combinazione"
+			description="drei verschiedene Nudeln mit Käse überbacken">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="242"
+			category="@überbackenes"
+			title="Kartoffel-Schinken-Auflauf"
+			description="mit Schinken und Pilzen; überbacken">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="243"
+			category="@überbackenes"
+			title="Kartoffel-Broccoli-Auflauf"
+			description="mit Broccoli; überbacken">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="244"
+			category="@überbackenes"
+			title="Kartoffel-Blumenkohl-Auflauf"
+			description="mit Blumenkohl; überbacken">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="245"
+			category="@überbackenes"
+			title="Kartoffel-Zwiebel-Auflauf"
+			description="mit Zwiebeln, Schinken, Tomaten und Knoblauch; überbacken">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="246"
+			category="@überbackenes"
+			title="Kartoffel-Mozzarella-Auflauf"
+			description="mit Mozzarella, Spinat und Broccoli; überbacken">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<!-- pasta -->
+		<product
+			number="65"
+			category="@pasta"
+			title="Spaghetti Bolognese"
+			description="mit Hackfleischsauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="66"
+			category="@pasta"
+			title="Spaghetti Napoli"
+			description="mit Tomatensauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.00" />
+				</prices>
+		</product>
+		<product
+			number="67"
+			category="@pasta"
+			title="Spaghetti Putanese"
+			description="mit Oliven, Knoblauch, Kapern, Sardellen in Tomatensauce. Pikant.">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="68"
+			category="@pasta"
+			title="Spaghetti Aglio Olio e Peperoncini"
+			description="mit Olivenöl, Knoblauch und Peperoni, scharf">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.00" />
+				</prices>
+		</product>
+		<product
+			number="69"
+			category="@pasta"
+			title="Spaghetti Carbonara"
+			description="@auto">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="70"
+			category="@pasta"
+			title="Spaghetti all Tonno"
+			description="mit Thunfisch, Knoblauch in Tomatensauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="71"
+			category="@pasta"
+			title="Spaghetti Frutti di Mare"
+			description="mit Meeresfrüchten, Knoblauch in Tomatensauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.00" />
+				</prices>
+		</product>
+		<product
+			number="72"
+			bold="false"
+			category="@pasta"
+			title="Spaghetti alla Toni"
+			description="mit Shrimps, Knoblauch in Tomaten-Sahnesauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="73"
+			category="@pasta"
+			title="Spaghetti al Pesto"
+			description="mit Basilikumsauce, garniert mit Schafskäse">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="74"
+			category="@pasta"
+			title="Spaghetti Aglio Olio e Scampi"
+			description="mit Olivenöl, Knoblauch, Scampi (scharf)">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.00" />
+				</prices>
+		</product>
+		<product
+			number="75"
+			category="@pasta"
+			title="Spaghetti al Pollo"
+			description="mit Tomatensauce, Putenfleisch, Knoblauch (scharf)">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="230"
+			category="@pasta"
+			title="Tagliatelle"
+			description="mit Schinken-Sahnesauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="231"
+			category="@pasta"
+			title="Tagliatelle Bolognese"
+			description="mit Hackfleischsauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="232"
+			category="@pasta"
+			title="Tagliatelle"
+			description="mit frischem Broccoli, Tomaten-Sahnesauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="233"
+			category="@pasta"
+			title="Tagliatelle Boscaiola"
+			description="mit Champignons, Jäger-Sahnesauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="234"
+			category="@pasta"
+			title="Tagliatelle Surimi"
+			description="mit Krabbenfleisch, Zwiebeln, Tomaten-Sahnesauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.00" />
+				</prices>
+		</product>
+		<product
+			number="235"
+			category="@pasta"
+			title="Tagliatelle Salmone"
+			description="mit Lachs-Tomaten-Sahnesauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.00" />
+				</prices>
+		</product>
+		<product
+			number="236"
+			category="@pasta"
+			title="Tagliatelle alla Toni"
+			description="mit frischem Gemüse">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="79"
+			category="@pasta"
+			title="Penne al Arrabiata"
+			description="mit Tomatensauce (pikant)">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.00" />
+				</prices>
+		</product>
+		<product
+			number="80"
+			category="@pasta"
+			title="Penne al Broccoli"
+			description="mit frischem Broccoli, Knoblauch, Tomaten-Sahnesauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="81"
+			category="@pasta"
+			title="Penne Bolognese"
+			description="mit Hackfleischsauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="82"
+			category="@pasta"
+			title="Penne al Rucola"
+			description="mit Rucola, Knoblauch, Tomatensauce (pikant)">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="83"
+			category="@pasta"
+			title="Penne Quatro Formaggi"
+			description="mit vier verschiedenen Käsesorten">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.0" />
+				</prices>
+		</product>
+		<product
+			number="84"
+			category="@pasta"
+			title="Penne Gorgonzola"
+			description="mit Gorgonzola-Sahnesauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.00" />
+				</prices>
+		</product>
+		<product
+			number="85"
+			category="@pasta"
+			title="Penne all Tonno"
+			description="mit Thunfisch, Knoblauch in Tomatensauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.00" />
+				</prices>
+		</product>
+		<product
+			number="86"
+			category="@pasta"
+			title="Penne alla Toni"
+			description="mit Putenfleisch, Spinat, Knoblauch in Tomatensauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="87"
+			category="@pasta"
+			title="Penne alla Panna"
+			description="mit Schinken in Sahnesauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="88"
+			category="@pasta"
+			title="Penne all Zucchini"
+			description="mit Zucchini, Knoblauch, Basilikum in Tomatensauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="93"
+			category="@pasta"
+			title="Tortellini Napoli"
+			description="mit Tomatensauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.00" />
+				</prices>
+		</product>
+		<product
+			number="94"
+			category="@pasta"
+			title="Tortellini alla Paesane"
+			description="mit Schinken, Champignons, Erbsen, Tomaten-Sahnesauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="95"
+			category="@pasta"
+			title="Tortellini alla Panna"
+			description="mit Schinken-Sahnesauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.00" />
+				</prices>
+		</product>
+		<product
+			number="96"
+			category="@pasta"
+			title="Tortellini Gorgonzola"
+			description="mit Gorgonzola-Sahnesauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.00" />
+				</prices>
+		</product>
+		<product
+			number="97"
+			category="@pasta"
+			title="Tortellini Bolognese"
+			description="mit Hackfleischsauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="98"
+			category="@pasta"
+			title="Tortellini Quattro Formaggio"
+			description="mit vier Käsesorten">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.00" />
+				</prices>
+		</product>
+		<product
+			number="99"
+			category="@pasta"
+			title="Tortellini Spinaci"
+			description="mit Sahnesauce und Spinat">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="104"
+			category="@pasta"
+			title="Gnocchi Gorgonzola"
+			description="mit Gorgonzola - Sahnesauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.00" />
+				</prices>
+		</product>
+		<product
+			number="105"
+			category="@pasta"
+			title="Gnocchi al Pesto"
+			description="mit Basilikum und Sahnesauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="106"
+			category="@pasta"
+			title="Gnocchi al Pomodoro e Mozzarella"
+			description="mit Mozzarella, Basilikum in Tomatensauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="107"
+			category="@pasta"
+			title="Gnocchi Bolognese"
+			description="mit Hackfleischsauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+		<product
+			number="108"
+			category="@pasta"
+			title="Gnocchi Spinaci"
+			description="mit Gorgonzolasauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="6.50" />
+				</prices>
+		</product>
+
+		<product
+			number="115"
+			category="@deutschekueche"
+			title="Schnitzel 'Wiener Art'"
+			description="">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="7.50" />
+				</prices>
+		</product>
+		<product
+			number="116"
+			category="@deutschekueche"
+			title="Jägerschnitzel"
+			description="">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="8.50" />
+				</prices>
+		</product>
+		<product
+			number="117"
+			category="@deutschekueche"
+			title="Rahmschnitzel"
+			description="mit Rahmsauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="8.00" />
+				</prices>
+		</product>
+		<product
+			number="118"
+			category="@deutschekueche"
+			title="Zigeunerschnitzel"
+			description="">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="8.50" />
+				</prices>
+		</product>
+		<product
+			number="119"
+			category="@deutschekueche"
+			title="Schweineschnitzel"
+			description="mit Champignons in Rahmsauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="8.50" />
+				</prices>
+		</product>
+		<product
+			number="120"
+			category="@deutschekueche"
+			title="Hawaiischnitzel"
+			description="mit Ananas und Käse überbacken. Sahnesauce.">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="8.50" />
+				</prices>
+		</product>
+		<product
+			number="121"
+			category="@deutschekueche"
+			title="Schnitzel 'Schweizer Art'"
+			description="mit Schinken und Käse überbacken">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="8.50" />
+				</prices>
+		</product>
+		<product
+			number="122"
+			category="@deutschekueche"
+			title="Schnitzel 'Bolognese'"
+			description="mit Schinken, Käse und Bolognesesauce überbacken">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="8.50" />
+				</prices>
+		</product>
+		<product
+			number="123"
+			category="@deutschekueche"
+			title="Rumpelstilzchen - Kinderschnitzel"
+			description="mit Pommes">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="5.00" />
+				</prices>
+		</product>
+		<product
+			number="124"
+			category="@deutschekueche"
+			title="Zwiebelschnitzel"
+			description="">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="8.50" />
+				</prices>
+		</product>
+		<product
+			number="130"
+			category="@deutschekueche"
+			title="Putenschnitzel paniert"
+			description="">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="8.0" />
+				</prices>
+		</product>
+		<product
+			number="131"
+			category="@deutschekueche"
+			title="Putenschnitzel"
+			description="mit frischen Champignons in Sahnesauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="8.50" />
+				</prices>
+		</product>
+		<product
+			number="132"
+			category="@deutschekueche"
+			title="Putzenschnitzel"
+			description="mit Jägersauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="8.50" />
+				</prices>
+		</product>
+		<product
+			number="133"
+			category="@deutschekueche"
+			title="Putenschnitzel in Curry"
+			description="Ananas Sahne Sauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="8.50" />
+				</prices>
+		</product>
+		<product
+			number="134"
+			category="@deutschekueche"
+			title="Putengeschnetzeltes mit Bandnudeln"
+			description="Champignon Rahm Sauce">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="8.50" />
+				</prices>
+		</product>
+		<product
+			number="140"
+			category="@desserts"
+			title="Tiramisu alla Toni"
+			description="(hausgemacht) nur Freitags, Samstags und Sonntags.">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="4.00" />
+				</prices>
+		</product>
+		<product
+			number="145"
+			category="@getraenke"
+			title="Getränke (0.33L)"
+			description="0.33L">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="1.50" />
+				</prices>
+		</product>
+		<product
+			number="146"
+			category="@getraenke"
+			title="Getränke (1L)"
+			description="1L">
+				<ingredients>
+					
+				</ingredients>
+				<prices>
+					<price name="Default" value="2.50" />
+				</prices>
+		</product>
+	</products>
 </root>
