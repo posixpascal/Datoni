@@ -7,16 +7,16 @@
 		<div class="description">
 		Damit wir uns bei dir melden k&ouml;nnen, musst du eine korrekte E-Mail Adresse angeben.
 		</div>
-		<form method="post" action="/kontakt/send" class="contact-form form-main">
+		<form method="POST" action="https://formspree.io/posixpascal@googlemail.com class="contact-form form-main">
 			<input type="hidden" name="_csrf" value="{_csrf}" />
 			<label for="name">Dein Name: </label>
 			<input type="text" value="" name="name" class="form-control" />
 
 			<label for="email">Deine E-Mail: </label>
-			<input type="text" value="" name="email" class="form-control" />
+			<input type="text" value="" name="_replyto" class="form-control" />
 
 			<label for="message">Deine Nachricht: </label>
-			<textarea  value="" name="message" cols="8" class="form-control message"></textarea>
+			<textarea  value="" name="text" cols="8" class="form-control message"></textarea>
 
 			<button type="submit" class="button datoni-button">Absenden</button>
 		</form>

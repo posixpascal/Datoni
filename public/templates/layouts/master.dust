@@ -186,16 +186,16 @@
 						</div>
 						<div class="small-8 medium-8 columns">
 							<h4>Kontakt</h4>
-							<form method="post" action="/kontakt/send" class="contact-form">
+							<form method="post" action="https://formspree.io/posixpascal+datoni@gmail.com" class="contact-form">
 								<input type="hidden" name="_csrf" value="{_csrf}" />
 								<label for="name">Dein Name: </label>
 								<input type="text" value="" name="name" class="mini form-control" />
 
 								<label for="email">Deine E-Mail: </label>
-								<input type="text" value="" name="email" class="mini form-control" />
+								<input type="text" value="" name="_replyto" class="mini form-control" />
 
 								<label for="message">Deine Nachricht: </label>
-								<textarea  value="" name="message" class="mini form-control"></textarea>
+								<textarea  value="" name="text" class="mini form-control"></textarea>
 
 								<button type="submit" class="button datoni-button">Absenden</button>
 							</form>
