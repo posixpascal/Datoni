@@ -136,6 +136,8 @@
 					<ingredient name="Oliven" />
 					<ingredient name="Ei" />
 					<ingredient name="Gorgonzola" />
+					<ingredient name="Schafskäse" />
+					<ingredient name="Gouda" />
 					<ingredient name="Mozzarella" />
 					<ingredient name="Basilikum" />
 				</ingredients>
@@ -192,10 +194,6 @@
 					<ingredient name="Mais" />
 					<ingredient name="Ananas" />
 					<ingredient name="Hähnchenbrust" />
-					<ingredient name="Schinken" />
-					<ingredient name="Käse" />
-					<ingredient name="Thunfisch" />
-					<ingredient name="milde Peperoni" />
 				</ingredients>
 				<prices>
 					<price name="Default" value="7.00" />
@@ -275,6 +273,7 @@
 				<ingredients>
 					<ingredient name="Parmesankäse" />
 					<ingredient name="Tomaten" />
+					<ingredient name="Balsamico Essig" />
 				</ingredients>
 				<prices>
 					<price name="Default" value="7.00" />
@@ -315,6 +314,7 @@
 			description="@auto">
 				<ingredients>
 					<ingredient name="Scampi" />
+					<ingredient name="Ruccola" />
 					<ingredient name="Tomaten" />
 				</ingredients>
 				<prices>
@@ -334,7 +334,7 @@
 					<ingredient name="Peperoni" />
 					<ingredient name="Schafskäse" />
 					<ingredient name="Oliven" />
-					<ingredient name="Zwiebeln" />
+					<ingredient name="rote Zwiebeln" />
 				</ingredients>
 				<prices>
 					<price name="Default" value="7.00" />
@@ -1413,6 +1413,7 @@
 					<ingredient name="Peperoniwurst" />
 					<ingredient name="Zwiebeln" />
 					<ingredient name="Käse" />
+					<ingredient name="scharf!!" />
 				</ingredients>
 				<prices>
 					<price name="Klein" value="6.50" />
