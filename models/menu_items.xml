@@ -848,6 +848,22 @@
 				</prices>
 		</product>
 		<product
+			number="215"
+			category="@pizza"
+			title="Pizza Crème fraîche"
+			description="@auto">
+				<ingredients>
+					<ingredient name="Crème fraîche" />
+					<ingredient name="Hackfleisch" />
+					<ingredient name="Zwiebeln" />
+				</ingredients>
+				<prices>
+					<price name="Klein" value="6.00" />
+					<price name="Groß" value="7.50" />
+					<price name="Familie" value="13.00" />
+				</prices>
+		</product>
+		<product
 			number="216"
 			category="@pizza"
 			title="Pizza Diavola"
@@ -1135,22 +1151,7 @@
 					<price name="Familie" value="14.50" />
 				</prices>
 		</product>
-		<product
-			number="230a"
-			category="@pizza"
-			title="Pizza Crème fraîche"
-			description="@auto">
-				<ingredients>
-					<ingredient name="Crème fraîche" />
-					<ingredient name="Hackfleisch" />
-					<ingredient name="Zwiebeln" />
-				</ingredients>
-				<prices>
-					<price name="Klein" value="6.00" />
-					<price name="Groß" value="7.50" />
-					<price name="Familie" value="13.00" />
-				</prices>
-		</product>
+		
 		<!-- veggies -->
 		<product
 			number="47"
