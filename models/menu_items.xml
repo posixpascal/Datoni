@@ -536,11 +536,12 @@
 		<product
 			number="29"
 			category="@pizza"
-			title="Pizza Champignons, Paprika, Zwiebeln"
+			title="Pizza Salami, Champignons, Paprika, Zwiebeln"
 			description="@auto">
 				<ingredients>
 					<ingredient name="Tomatensauce" />
 					<ingredient name="Käse" />
+                    <ingredient name="Salami" />
 					<ingredient name="Paprika" />
 					<ingredient name="Champignons" />
 					<ingredient name="Zwiebeln" />
@@ -945,7 +946,7 @@
 			title="Pizza Venezia (scharf)"
 			description="@auto">
 				<ingredients>
-					<ingredient name="Tomatensauce" />
+					<ingredient name="Barbeque Sauce" />
 					<ingredient name="Käse" />
 					<ingredient name="Hackfleisch" />
 					<ingredient name="Zwiebeln" />
